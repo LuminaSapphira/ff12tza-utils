@@ -1,7 +1,3 @@
-use std::borrow::Borrow;
-use std::iter::Map;
-
-use plotters::element::{PointCollection, PointElement};
 use plotters::prelude::*;
 
 use crate::treasure::ZoneTreasure;

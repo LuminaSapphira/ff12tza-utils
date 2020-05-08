@@ -42,10 +42,6 @@ fn calculate_file_order(requested_order: Vec<String>) -> Vec<u8> {
     file_order
 }
 
-fn seek_battle_file(file: &mut File) {
-
-}
-
 fn read_to_end(file: File) -> Vec<u8> {
     let mut file = file;
     let mut data = Vec::new();
@@ -68,8 +64,8 @@ pub fn reorder_magick(battle_pack: PathBuf, magick_order: PathBuf, output: PathB
     let mut battle_pack_bin = read_to_end(open_file(battle_pack));
 
 
-    let base_offset = match battle_pack_bin.windows(MAGICK_SIGNATURE.len()).enumerate().find(|(i, a)| a == &MAGICK_SIGNATURE) {
-        Some((i, a)) => i + 28,
+    let base_offset = match battle_pack_bin.windows(MAGICK_SIGNATURE.len()).enumerate().find(|(_, a)| a == &MAGICK_SIGNATURE) {
+        Some((i, _)) => i + 28,
         None => {
             eprintln!("Unable to find magick signature in battle pack.");
             std::process::exit(5);
