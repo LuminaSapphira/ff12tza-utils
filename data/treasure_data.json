@@ -1,0 +1,1772 @@
+{
+  "groups": {
+    "Dalmasca Estersand": [
+      "dst_a01",
+      "dst_a02",
+      "dst_a03",
+      "dst_a04",
+      "dst_a07",
+      "dst_c01",
+      "dst_c02"
+    ],
+    "Dalmasca Westersand": [
+      "wdl_a01",
+      "wdl_a02",
+      "wdl_a03",
+      "wdl_a04",
+      "wdl_a05"
+    ],
+    "Garamsythe Waterway": [
+      "grm_a03",
+      "grm_a05",
+      "grm_a06",
+      "grm_b01",
+      "grm_b03",
+      "grm_b04",
+      "grm_c01",
+      "grm_e02",
+      "grm_e07",
+      "grm_e09",
+      "grm_e12"
+    ],
+    "Barheim Passage": [
+      "mic_a01",
+      "mic_a02",
+      "mic_a03",
+      "mic_a04",
+      "mic_a05",
+      "mic_a06",
+      "mic_b01",
+      "mic_b02",
+      "mic_d01",
+      "mic_e01",
+      "mic_e02",
+      "mic_e03",
+      "mic_e04",
+      "mic_e05"
+    ],
+    "Lhusu Mines": [
+      "lus_a01",
+      "lus_a02",
+      "lus_a03",
+      "lus_b01",
+      "lus_b03",
+      "lus_d01",
+      "lus_d03",
+      "lus_e01",
+      "lus_f01",
+      "lus_f02",
+      "lus_f03",
+      "lus_f04",
+      "lus_f05",
+      "lus_g01"
+    ],
+    "Ogir-Yensa Sandsea": [
+      "ene_a01",
+      "ene_a02",
+      "ene_a03",
+      "ene_a04",
+      "ene_a05",
+      "ene_a06",
+      "ene_a07"
+    ],
+    "Nam-Yensa Sandsea": [
+      "enw_a01",
+      "enw_a02",
+      "enw_a03",
+      "enw_a04",
+      "enw_b01",
+      "enw_b02",
+      "enw_b03"
+    ],
+    "Tomb of Raithwall": [
+      "rwg_c01",
+      "rwg_c02",
+      "rwg_c03",
+      "rwg_d01"
+    ],
+    "Golmore Jungle": [
+      "gol_a01",
+      "gol_a02",
+      "gol_a04",
+      "gol_b01",
+      "gol_c01",
+      "gol_d01",
+      "gol_d02"
+    ],
+    "Henne Mines": [
+      "hne_a04",
+      "hne_a05",
+      "hne_c01",
+      "hne_c02",
+      "hne_c04",
+      "hne_d01"
+    ],
+    "Paramina Rift": [
+      "pbc_a02",
+      "pbc_a03",
+      "pbc_b01",
+      "pbc_b02",
+      "pbc_b03",
+      "pbc_c01",
+      "pbc_c02",
+      "pbc_c03"
+    ],
+    "Mosphoran Highwaste": [
+      "mnt_a01",
+      "mnt_a02",
+      "mnt_b01",
+      "mnt_b02",
+      "mnt_b03",
+      "mnt_b04",
+      "mnt_b05",
+      "mnt_b06",
+      "mnt_d01"
+    ],
+    "The Salikawood": [
+      "frs_a01",
+      "frs_a02",
+      "frs_a03",
+      "frs_a04",
+      "frs_a05",
+      "frs_b01",
+      "frs_b02",
+      "frs_c01",
+      "frs_c02"
+    ],
+    "Phon Coast": [
+      "fon_a01",
+      "fon_a02",
+      "fon_a03",
+      "fon_a04",
+      "fon_a05",
+      "fon_a07",
+      "fon_c01",
+      "fon_c02",
+      "fon_c03"
+    ],
+    "Tchita Upland": [
+      "pla_a01",
+      "pla_a02",
+      "pla_a03",
+      "pla_a04",
+      "pla_b01",
+      "pla_b02",
+      "pla_b03",
+      "pla_b04",
+      "pla_b05"
+    ],
+    "Feywood": [
+      "mfr_a01",
+      "mfr_a02",
+      "mfr_a03",
+      "mfr_b01",
+      "mfr_c01",
+      "mfr_c02",
+      "mfr_c03"
+    ],
+    "Ancient City of Giruvegan": [
+      "gil_b01",
+      "gil_b02",
+      "gil_c01",
+      "gil_c02",
+      "gil_d01"
+    ],
+    "Great Crystal": [
+      "gil_e02",
+      "gil_e03",
+      "gil_f03",
+      "gil_f04",
+      "gil_g02",
+      "gil_g05",
+      "gil_h01",
+      "gil_i08",
+      "gil_j03",
+      "gil_j05",
+      "gil_j06",
+      "gil_j08",
+      "gil_j13",
+      "gil_j14",
+      "gil_k06",
+      "gil_k09",
+      "gil_k12"
+    ],
+    "Necrohol of Nabudis": [
+      "bds_a01",
+      "bds_a02",
+      "bds_b01",
+      "bds_c01",
+      "bds_c02",
+      "bds_e01",
+      "bds_f01",
+      "bds_g01"
+    ],
+    "Sky Fortress Bahamuth": [
+      "bhm_a03",
+      "bhm_a04"
+    ],
+    "Nabreus Deadlands": [
+      "bog_a01",
+      "bog_a03",
+      "bog_a05",
+      "bog_b01",
+      "bog_b03",
+      "bog_b05",
+      "bog_b06"
+    ],
+    "Mt Bur-Omisace": [
+      "bul_a03"
+    ],
+    "Cerobi Steppe": [
+      "srb_a01",
+      "srb_a02",
+      "srb_a03",
+      "srb_b01",
+      "srb_b02",
+      "srb_b03",
+      "srb_b04"
+    ],
+    "Draklor Laboratory": [
+      "dor_b01",
+      "dor_c03",
+      "dor_c15",
+      "dor_d02",
+      "dor_e15"
+    ],
+    "Pharos at Ridorana": [
+      "rbl_a01",
+      "rbl_b01",
+      "rbl_d01",
+      "rbl_d02",
+      "rbl_e01",
+      "rbl_e02",
+      "rbl_f02",
+      "rbl_g02",
+      "rbl_g03",
+      "rbl_h02",
+      "rbl_h03",
+      "rbl_i02",
+      "rbl_i03",
+      "rbl_j02",
+      "rbl_k01",
+      "rbl_l01",
+      "rbl_m01",
+      "rbl_n01",
+      "rbl_n02",
+      "rbl_q01"
+    ],
+    "Ridorana Catarct": [
+      "rwf_a03",
+      "rwf_b01",
+      "rwf_b02",
+      "rwf_c01",
+      "rwf_d01"
+    ],
+    "Skyferry": [
+      "asp_a03"
+    ],
+    "Nalbina Dungeons": [
+      "nal_a01",
+      "nal_c01",
+      "nal_c02"
+    ],
+    "Nalbina Fortress (Tutorial)": [
+      "naf_b01"
+    ],
+    "Ozmone Plains": [
+      "ozm_a01",
+      "ozm_a02",
+      "ozm_a03",
+      "ozm_b01",
+      "ozm_b02",
+      "ozm_b03",
+      "ozm_c01"
+    ],
+    "Dreadnought Leviathan": [
+      "rsn_b01",
+      "rsn_b02",
+      "rsn_b03",
+      "rsn_b04"
+    ],
+    "Sochen Cave Palace": [
+      "rui_a01",
+      "rui_a02",
+      "rui_a03",
+      "rui_a04",
+      "rui_b01",
+      "rui_b02",
+      "rui_c01",
+      "rui_d01",
+      "rui_e01"
+    ],
+    "Giza Plains - Dry": [
+      "sav_a01",
+      "sav_a02",
+      "sav_a03",
+      "sav_a04",
+      "sav_c01",
+      "sav_c03"
+    ],
+    "Giza Plains - Rain": [
+      "sav_d01",
+      "sav_d02",
+      "sav_d03",
+      "sav_d04",
+      "sav_e01",
+      "sav_f01",
+      "sav_f03",
+      "sav_g01"
+    ],
+    "Zertinan Caverns": [
+      "ztc_a01",
+      "ztc_a02",
+      "ztc_a03",
+      "ztc_b01",
+      "ztc_b02",
+      "ztc_c01",
+      "ztc_c02",
+      "ztc_c03",
+      "ztc_c04"
+    ],
+    "Imperial City of Archades": [
+      "alc_a01"
+    ],
+    "Old Archades": [
+      "ald_a01",
+      "ald_a02"
+    ],
+    "Royal Palace": [
+      "rrp_a02",
+      "rrp_a03"
+    ],
+    "Jahara, Land of the Garif": [
+      "glf_a03"
+    ],
+    "Lowtown": [
+      "slm_a01",
+      "slm_a02"
+    ],
+    "Balfoheim Port": [
+      "var_a01",
+      "var_a13",
+      "var_a14",
+      "var_a15"
+    ],
+    "Eruyt Village": [
+      "vic_a01",
+      "vic_a02"
+    ],
+    "Stillshrine of Miriam": [
+      "mrm_a01",
+      "mrm_a02",
+      "mrm_b02",
+      "mrm_b03",
+      "mrm_b04",
+      "mrm_c01",
+      "mrm_d01",
+      "mrm_e01"
+    ]
+  },
+  "zones": {
+    "dst_a01": {
+      "name": "The Stepping",
+      "offset": 960,
+      "quantity": 10
+    },
+    "dst_a02": {
+      "name": "Yandang Labyrinth",
+      "offset": 960,
+      "quantity": 9
+    },
+    "dst_a03": {
+      "name": "Sand-swept Naze",
+      "offset": 896,
+      "quantity": 11
+    },
+    "dst_a04": {
+      "name": "Banks of the Nebra",
+      "offset": 896,
+      "quantity": 10
+    },
+    "dst_a07": {
+      "name": "Outpost",
+      "offset": 384,
+      "quantity": 4
+    },
+    "dst_c01": {
+      "name": "The Yoma",
+      "offset": 960,
+      "quantity": 14
+    },
+    "dst_c02": {
+      "name": "Broken Sands",
+      "offset": 896,
+      "quantity": 13
+    },
+    "wdl_a01": {
+      "name": "Galtea Downs",
+      "offset": 832,
+      "quantity": 8
+    },
+    "wdl_a02": {
+      "name": "Corridor of Sands",
+      "offset": 768,
+      "quantity": 9
+    },
+    "wdl_a03": {
+      "name": "Shimmering Horizon",
+      "offset": 896,
+      "quantity": 11
+    },
+    "wdl_a04": {
+      "name": "The Midfault",
+      "offset": 768,
+      "quantity": 9
+    },
+    "wdl_a05": {
+      "name": "Windtrace Dunes",
+      "offset": 832,
+      "quantity": 9
+    },
+    "grm_a03": {
+      "name": "North Spur Sluiceway",
+      "offset": 640,
+      "quantity": 8
+    },
+    "grm_a05": {
+      "name": "Northern Sluiceway",
+      "offset": 704,
+      "quantity": 6
+    },
+    "grm_a06": {
+      "name": "East Waterway Control",
+      "offset": 576,
+      "quantity": 4
+    },
+    "grm_b01": {
+      "name": "Num 11 Channel(Water not drained)",
+      "offset": 640,
+      "quantity": 6
+    },
+    "grm_b03": {
+      "name": "West Sluice Control",
+      "offset": 576,
+      "quantity": 2
+    },
+    "grm_b04": {
+      "name": "Num 10 Channel (Water not drained)",
+      "offset": 704,
+      "quantity": 4
+    },
+    "grm_c01": {
+      "name": "Southern Sluiceway",
+      "offset": 512,
+      "quantity": 2
+    },
+    "grm_e02": {
+      "name": "Num 11 Channel (Drained water)",
+      "offset": 576,
+      "quantity": 6
+    },
+    "grm_e07": {
+      "name": "Num 10 Channel (Drained water)",
+      "offset": 576,
+      "quantity": 5
+    },
+    "grm_e09": {
+      "name": "Num 3 Cloaca Spur",
+      "offset": 512,
+      "quantity": 3
+    },
+    "grm_e12": {
+      "name": "Num 4 Cloaca Spur (Drained water)",
+      "offset": 512,
+      "quantity": 3
+    },
+    "mic_a01": {
+      "name": "The Litghtworks",
+      "offset": 512,
+      "quantity": 3
+    },
+    "mic_a02": {
+      "name": "Great Eastern Passage",
+      "offset": 1600,
+      "quantity": 7
+    },
+    "mic_a03": {
+      "name": "Op Sector 36",
+      "offset": 832,
+      "quantity": 3
+    },
+    "mic_a04": {
+      "name": "Special Op Sector",
+      "offset": 896,
+      "quantity": 3
+    },
+    "mic_a05": {
+      "name": "Op Sector 37",
+      "offset": 960,
+      "quantity": 5
+    },
+    "mic_a06": {
+      "name": "Op Sector 29",
+      "offset": 640,
+      "quantity": 3
+    },
+    "mic_b01": {
+      "name": "Cgreat Central Passage",
+      "offset": 768,
+      "quantity": 4
+    },
+    "mic_b02": {
+      "name": "The Zeviah Subterrane",
+      "offset": 1216,
+      "quantity": 9
+    },
+    "mic_d01": {
+      "name": "Terminal Num 7",
+      "offset": 512,
+      "quantity": 2
+    },
+    "mic_e01": {
+      "name": "East-West Bypass",
+      "offset": 640,
+      "quantity": 5
+    },
+    "mic_e02": {
+      "name": "The Zeviah Span",
+      "offset": 896,
+      "quantity": 12
+    },
+    "mic_e03": {
+      "name": "West Annex",
+      "offset": 1280,
+      "quantity": 13
+    },
+    "mic_e04": {
+      "name": "Terminus Num 7 Adjunct",
+      "offset": 448,
+      "quantity": 1
+    },
+    "mic_e05": {
+      "name": "Special Op Sector 5",
+      "offset": 576,
+      "quantity": 8
+    },
+    "lus_a01": {
+      "name": "Shaft Entry",
+      "offset": 832,
+      "quantity": 6
+    },
+    "lus_a02": {
+      "name": "Oltam Span",
+      "offset": 640,
+      "quantity": 3
+    },
+    "lus_a03": {
+      "name": "Transitway 1",
+      "offset": 896,
+      "quantity": 3
+    },
+    "lus_b01": {
+      "name": "Shunia Twinspan",
+      "offset": 960,
+      "quantity": 3
+    },
+    "lus_b03": {
+      "name": "Site 3",
+      "offset": 704,
+      "quantity": 8
+    },
+    "lus_d01": {
+      "name": "Site 9",
+      "offset": 960,
+      "quantity": 7
+    },
+    "lus_d03": {
+      "name": "Site 11",
+      "offset": 960,
+      "quantity": 7
+    },
+    "lus_e01": {
+      "name": "Site 7",
+      "offset": 576,
+      "quantity": 1
+    },
+    "lus_f01": {
+      "name": "Lasche Span",
+      "offset": 512,
+      "quantity": 1
+    },
+    "lus_f02": {
+      "name": "Site 5",
+      "offset": 1024,
+      "quantity": 12
+    },
+    "lus_f03": {
+      "name": "Site 6 South",
+      "offset": 768,
+      "quantity": 5
+    },
+    "lus_f04": {
+      "name": "Site 6 North",
+      "offset": 512,
+      "quantity": 2
+    },
+    "lus_f05": {
+      "name": "Staging File",
+      "offset": 448,
+      "quantity": 1
+    },
+    "lus_g01": {
+      "name": "Site 2",
+      "offset": 640,
+      "quantity": 8
+    },
+    "ene_a01": {
+      "name": "Platform 1 - East Tanks",
+      "offset": 1408,
+      "quantity": 4
+    },
+    "ene_a02": {
+      "name": "Platform 1 - Refinary",
+      "offset": 1792,
+      "quantity": 10
+    },
+    "ene_a03": {
+      "name": "East Junction",
+      "offset": 1856,
+      "quantity": 10
+    },
+    "ene_a04": {
+      "name": "Primary Tank Complex",
+      "offset": 2112,
+      "quantity": 8
+    },
+    "ene_a05": {
+      "name": "Central Junction",
+      "offset": 1920,
+      "quantity": 9
+    },
+    "ene_a06": {
+      "name": "Platform 1 - South Tanks",
+      "offset": 1664,
+      "quantity": 6
+    },
+    "ene_a07": {
+      "name": "Platform 2 - Refinary",
+      "offset": 1856,
+      "quantity": 9
+    },
+    "enw_a01": {
+      "name": "The Urutan-Yensa Sea",
+      "offset": 704,
+      "quantity": 7
+    },
+    "enw_a02": {
+      "name": "Withering Shores",
+      "offset": 1728,
+      "quantity": 6
+    },
+    "enw_a03": {
+      "name": "Augur Hill",
+      "offset": 1408,
+      "quantity": 9
+    },
+    "enw_a04": {
+      "name": "Yellow Sands",
+      "offset": 1728,
+      "quantity": 9
+    },
+    "enw_b01": {
+      "name": "Demesne of the Sandqueen",
+      "offset": 1024,
+      "quantity": 9
+    },
+    "enw_b02": {
+      "name": "Trail of Fading Warmth",
+      "offset": 1408,
+      "quantity": 1
+    },
+    "enw_b03": {
+      "name": "Simoon Bluff",
+      "offset": 960,
+      "quantity": 11
+    },
+    "rwg_c01": {
+      "name": "Royal Palace",
+      "offset": 1088,
+      "quantity": 5
+    },
+    "rwg_c02": {
+      "name": "Southfall Passage",
+      "offset": 1088,
+      "quantity": 8
+    },
+    "rwg_c03": {
+      "name": "Northfall Passage",
+      "offset": 1152,
+      "quantity": 6
+    },
+    "rwg_d01": {
+      "name": "Cloister of Flame",
+      "offset": 448,
+      "quantity": 4
+    },
+    "gol_a01": {
+      "name": "Paths of Chained Ligth",
+      "offset": 1984,
+      "quantity": 4
+    },
+    "gol_a02": {
+      "name": "The Needlebrake",
+      "offset": 4288,
+      "quantity": 5
+    },
+    "gol_a04": {
+      "name": "The Parting Glade",
+      "offset": 1280,
+      "quantity": 1
+    },
+    "gol_b01": {
+      "name": "The Rustling Chapel",
+      "offset": 2240,
+      "quantity": 4
+    },
+    "gol_c01": {
+      "name": "Dell of the Dreamer",
+      "offset": 1280,
+      "quantity": 1
+    },
+    "gol_d01": {
+      "name": "The Branchway",
+      "offset": 1536,
+      "quantity": 3
+    },
+    "gol_d02": {
+      "name": "The Greenswathe",
+      "offset": 1536,
+      "quantity": 3
+    },
+    "hne_a04": {
+      "name": "Phase 1 Dig",
+      "offset": 832,
+      "quantity": 13
+    },
+    "hne_a05": {
+      "name": "Crossover A",
+      "offset": 704,
+      "quantity": 4
+    },
+    "hne_c01": {
+      "name": "Phase 2 Dig",
+      "offset": 1088,
+      "quantity": 15
+    },
+    "hne_c02": {
+      "name": "Crossover C",
+      "offset": 576,
+      "quantity": 8
+    },
+    "hne_c04": {
+      "name": "Phase 2 Shaft",
+      "offset": 832,
+      "quantity": 6
+    },
+    "hne_d01": {
+      "name": "Special Charter Shaft",
+      "offset": 1152,
+      "quantity": 15
+    },
+    "pbc_a02": {
+      "name": "Head of the Silverflow",
+      "offset": 768,
+      "quantity": 10
+    },
+    "pbc_a03": {
+      "name": "Freezing Gorge",
+      "offset": 576,
+      "quantity": 5
+    },
+    "pbc_b01": {
+      "name": "Frosen Brook",
+      "offset": 704,
+      "quantity": 8
+    },
+    "pbc_b02": {
+      "name": "Icebound Flow",
+      "offset": 640,
+      "quantity": 8
+    },
+    "pbc_b03": {
+      "name": "Karydine Glacier",
+      "offset": 832,
+      "quantity": 10
+    },
+    "pbc_c01": {
+      "name": "Path of the Firstfall",
+      "offset": 448,
+      "quantity": 1
+    },
+    "pbc_c02": {
+      "name": "Spine of the Icewyrm",
+      "offset": 576,
+      "quantity": 3
+    },
+    "pbc_c03": {
+      "name": "Silverflow's End",
+      "offset": 768,
+      "quantity": 11
+    },
+    "mnt_a01": {
+      "name": "Southern Skirts",
+      "offset": 576,
+      "quantity": 5
+    },
+    "mnt_a02": {
+      "name": "Summit Path",
+      "offset": 768,
+      "quantity": 7
+    },
+    "mnt_b01": {
+      "name": "Rays of Ashen Light",
+      "offset": 640,
+      "quantity": 5
+    },
+    "mnt_b02": {
+      "name": "Empyrean Way",
+      "offset": 768,
+      "quantity": 5
+    },
+    "mnt_b03": {
+      "name": "Skyreach Ridge",
+      "offset": 512,
+      "quantity": 4
+    },
+    "mnt_b04": {
+      "name": "Trail of Sky-flung Stone",
+      "offset": 704,
+      "quantity": 5
+    },
+    "mnt_b05": {
+      "name": "Northern Skirts",
+      "offset": 832,
+      "quantity": 9
+    },
+    "mnt_b06": {
+      "name": "Halny Crossing",
+      "offset": 384,
+      "quantity": 2
+    },
+    "mnt_d01": {
+      "name": "Babbling Vale",
+      "offset": 512,
+      "quantity": 4
+    },
+    "frs_a01": {
+      "name": "Omen Spur",
+      "offset": 640,
+      "quantity": 2
+    },
+    "frs_a02": {
+      "name": "Trunkwall Road",
+      "offset": 832,
+      "quantity": 8
+    },
+    "frs_a03": {
+      "name": "Diverging Way",
+      "offset": 832,
+      "quantity": 12
+    },
+    "frs_a04": {
+      "name": "Sun-dappled Path",
+      "offset": 704,
+      "quantity": 4
+    },
+    "frs_a05": {
+      "name": "Garden of Decay",
+      "offset": 576,
+      "quantity": 6
+    },
+    "frs_b01": {
+      "name": "Quietened Trace",
+      "offset": 448,
+      "quantity": 4
+    },
+    "frs_b02": {
+      "name": "Grand Bower",
+      "offset": 576,
+      "quantity": 4
+    },
+    "frs_c01": {
+      "name": "Corridor of Ages",
+      "offset": 768,
+      "quantity": 7
+    },
+    "frs_c02": {
+      "name": "Pielbald Path",
+      "offset": 768,
+      "quantity": 3
+    },
+    "fon_a01": {
+      "name": "The Resta Strand",
+      "offset": 704,
+      "quantity": 10
+    },
+    "fon_a02": {
+      "name": "Pora-Pora Sands",
+      "offset": 704,
+      "quantity": 10
+    },
+    "fon_a03": {
+      "name": "The Mauleia Strand",
+      "offset": 832,
+      "quantity": 10
+    },
+    "fon_a04": {
+      "name": "Cape Uahuk",
+      "offset": 704,
+      "quantity": 9
+    },
+    "fon_a05": {
+      "name": "Cape Tialan",
+      "offset": 768,
+      "quantity": 8
+    },
+    "fon_a07": {
+      "name": "The Hakawea Shore",
+      "offset": 768,
+      "quantity": 12
+    },
+    "fon_c01": {
+      "name": "Caima Hills",
+      "offset": 640,
+      "quantity": 11
+    },
+    "fon_c02": {
+      "name": "The Vaddu Strand",
+      "offset": 832,
+      "quantity": 16
+    },
+    "fon_c03": {
+      "name": "Limatra Hills",
+      "offset": 704,
+      "quantity": 10
+    },
+    "pla_a01": {
+      "name": "Uazcuff Hills",
+      "offset": 768,
+      "quantity": 11
+    },
+    "pla_a02": {
+      "name": "Sundered Earth",
+      "offset": 832,
+      "quantity": 12
+    },
+    "pla_a03": {
+      "name": "The Highlands",
+      "offset": 1024,
+      "quantity": 10
+    },
+    "pla_a04": {
+      "name": "Fields of Eternity",
+      "offset": 832,
+      "quantity": 9
+    },
+    "pla_b01": {
+      "name": "The Skytrail",
+      "offset": 1024,
+      "quantity": 10
+    },
+    "pla_b02": {
+      "name": "Realm of the Elder Dream",
+      "offset": 896,
+      "quantity": 10
+    },
+    "pla_b03": {
+      "name": "The Lost Way",
+      "offset": 832,
+      "quantity": 10
+    },
+    "pla_b04": {
+      "name": "Garden of the Life's Circle",
+      "offset": 832,
+      "quantity": 8
+    },
+    "pla_b05": {
+      "name": "Oliphzak Rise",
+      "offset": 896,
+      "quantity": 11
+    },
+    "mfr_a01": {
+      "name": "Walk of Flitting Rifts",
+      "offset": 1664,
+      "quantity": 11
+    },
+    "mfr_a02": {
+      "name": "Walk of Stolen Truths",
+      "offset": 1728,
+      "quantity": 10
+    },
+    "mfr_a03": {
+      "name": "Walk of Dancing Shadow",
+      "offset": 1536,
+      "quantity": 11
+    },
+    "mfr_b01": {
+      "name": "Redolent Glade",
+      "offset": 1344,
+      "quantity": 2
+    },
+    "mfr_c01": {
+      "name": "White Magick's Embrace",
+      "offset": 1600,
+      "quantity": 9
+    },
+    "mfr_c02": {
+      "name": "Ice Field of Clearsight",
+      "offset": 1024,
+      "quantity": 12
+    },
+    "mfr_c03": {
+      "name": "The Edge of Reason",
+      "offset": 1024,
+      "quantity": 11
+    },
+    "gil_b01": {
+      "name": "The Trimhala Water-Steps",
+      "offset": 2112,
+      "quantity": 5
+    },
+    "gil_b02": {
+      "name": "The Aadha Water-Steps",
+      "offset": 1344,
+      "quantity": 3
+    },
+    "gil_c01": {
+      "name": "The Haalm kah Water-Steps",
+      "offset": 1280,
+      "quantity": 1
+    },
+    "gil_c02": {
+      "name": "Gate of Fire",
+      "offset": 1728,
+      "quantity": 3
+    },
+    "gil_d01": {
+      "name": "Gate of Wind",
+      "offset": 1280,
+      "quantity": 2
+    },
+    "gil_e02": {
+      "name": "Kabonii Jilaam Pratii'vaa",
+      "offset": 512,
+      "quantity": 1
+    },
+    "gil_e03": {
+      "name": "Kabonii Jilaam Avaa",
+      "offset": 512,
+      "quantity": 1
+    },
+    "gil_f03": {
+      "name": "Bhrum Pis Avaa",
+      "offset": 576,
+      "quantity": 1
+    },
+    "gil_f04": {
+      "name": "Bhrun Pis Pratii",
+      "offset": 576,
+      "quantity": 1
+    },
+    "gil_g02": {
+      "name": "Trahk Jilaan Praa",
+      "offset": 576,
+      "quantity": 1
+    },
+    "gil_g05": {
+      "name": "Trahk Jilaan Praa'dii",
+      "offset": 576,
+      "quantity": 1
+    },
+    "gil_h01": {
+      "name": "Crystal Peak",
+      "offset": 1344,
+      "quantity": 2
+    },
+    "gil_i08": {
+      "name": "Dhebon Jilaam Avaapratii",
+      "offset": 576,
+      "quantity": 2
+    },
+    "gil_j03": {
+      "name": "Sirhru Phullam Praa",
+      "offset": 832,
+      "quantity": 2
+    },
+    "gil_j05": {
+      "name": "Sirhru Phullam Praa'vaa",
+      "offset": 832,
+      "quantity": 2
+    },
+    "gil_j06": {
+      "name": "Sirhru Phullam Pratii'vaa",
+      "offset": 832,
+      "quantity": 2
+    },
+    "gil_j08": {
+      "name": "Sirhru Phullam Udiipratii",
+      "offset": 832,
+      "quantity": 2
+    },
+    "gil_j13": {
+      "name": "Sirhru Jilaam Praa'vaa",
+      "offset": 576,
+      "quantity": 2
+    },
+    "gil_j14": {
+      "name": "Sirhrun Jilaam Pratii'vaa",
+      "offset": 576,
+      "quantity": 2
+    },
+    "gil_k06": {
+      "name": "Uldobi Phullam Pratii'dii",
+      "offset": 704,
+      "quantity": 2
+    },
+    "gil_k09": {
+      "name": "Uldobi Phullam udiipraa",
+      "offset": 512,
+      "quantity": 2
+    },
+    "gil_k12": {
+      "name": "Uldobi Phullam Pratii",
+      "offset": 448,
+      "quantity": 2
+    },
+    "bds_a01": {
+      "name": "Hall of Effulgent Light",
+      "offset": 960,
+      "quantity": 8
+    },
+    "bds_a02": {
+      "name": "Cloister of Distant Song",
+      "offset": 896,
+      "quantity": 9
+    },
+    "bds_b01": {
+      "name": "Cloister of Highborn",
+      "offset": 1088,
+      "quantity": 11
+    },
+    "bds_c01": {
+      "name": "Hall of the Ivory Covenant",
+      "offset": 896,
+      "quantity": 8
+    },
+    "bds_c02": {
+      "name": "Hall of Slummbering Might",
+      "offset": 896,
+      "quantity": 6
+    },
+    "bds_e01": {
+      "name": "The Crucible",
+      "offset": 512,
+      "quantity": 1
+    },
+    "bds_f01": {
+      "name": "Cloister of Solace",
+      "offset": 448,
+      "quantity": 1
+    },
+    "bds_g01": {
+      "name": "Cloister of Reason",
+      "offset": 448,
+      "quantity": 1
+    },
+    "bhm_a03": {
+      "name": "Antichamber - Nort, South and West",
+      "offset": 1152,
+      "quantity": 3
+    },
+    "bhm_a04": {
+      "name": "Antichamber - East",
+      "offset": 448,
+      "quantity": 1
+    },
+    "bog_a01": {
+      "name": "Green Crag",
+      "offset": 512,
+      "quantity": 2
+    },
+    "bog_a03": {
+      "name": "Vale of Lingering Sorrow",
+      "offset": 576,
+      "quantity": 4
+    },
+    "bog_a05": {
+      "name": "Echos of the Past",
+      "offset": 640,
+      "quantity": 6
+    },
+    "bog_b01": {
+      "name": "The Slumbermead",
+      "offset": 896,
+      "quantity": 11
+    },
+    "bog_b03": {
+      "name": "The Fog Mutters",
+      "offset": 640,
+      "quantity": 3
+    },
+    "bog_b05": {
+      "name": "Lifeless Strand",
+      "offset": 704,
+      "quantity": 9
+    },
+    "bog_b06": {
+      "name": "Field of the Fallen Lord",
+      "offset": 576,
+      "quantity": 7
+    },
+    "bul_a03": {
+      "name": "Temple Grounds",
+      "offset": 448,
+      "quantity": 1
+    },
+    "srb_a01": {
+      "name": "Old Elanise Road",
+      "offset": 832,
+      "quantity": 16
+    },
+    "srb_a02": {
+      "name": "Crossfield",
+      "offset": 768,
+      "quantity": 14
+    },
+    "srb_a03": {
+      "name": "The Terraced Bank",
+      "offset": 832,
+      "quantity": 14
+    },
+    "srb_b01": {
+      "name": "North Liavell Hills",
+      "offset": 768,
+      "quantity": 13
+    },
+    "srb_b02": {
+      "name": "South Liavell Hills",
+      "offset": 704,
+      "quantity": 15
+    },
+    "srb_b03": {
+      "name": "Feddik River",
+      "offset": 832,
+      "quantity": 15
+    },
+    "srb_b04": {
+      "name": "The Northsward",
+      "offset": 960,
+      "quantity": 14
+    },
+    "dor_b01": {
+      "name": "Energy Transitarium",
+      "offset": 1408,
+      "quantity": 2
+    },
+    "dor_c03": {
+      "name": "66th Floor",
+      "offset": 1280,
+      "quantity": 3
+    },
+    "dor_c15": {
+      "name": "70th Floor",
+      "offset": 1280,
+      "quantity": 2
+    },
+    "dor_d02": {
+      "name": "67th Floor",
+      "offset": 384,
+      "quantity": 3
+    },
+    "dor_e15": {
+      "name": "68th Floor",
+      "offset": 1280,
+      "quantity": 4
+    },
+    "rbl_a01": {
+      "name": "First Ascent - The Wellspring",
+      "offset": 448,
+      "quantity": 2
+    },
+    "rbl_b01": {
+      "name": "First Ascent - Wellspring Labyrinth",
+      "offset": 1088,
+      "quantity": 7
+    },
+    "rbl_d01": {
+      "name": "First Ascent - Wellspring Ravel - 1st Fligth",
+      "offset": 832,
+      "quantity": 7
+    },
+    "rbl_d02": {
+      "name": "First Ascent - Wellspring Ravel - 2nd Flight",
+      "offset": 896,
+      "quantity": 4
+    },
+    "rbl_e01": {
+      "name": "First Ascent - Wellspring - 3rd Flight",
+      "offset": 1088,
+      "quantity": 6
+    },
+    "rbl_e02": {
+      "name": "First Ascent - Wellspring Ravel - 4th Flight",
+      "offset": 1152,
+      "quantity": 2
+    },
+    "rbl_f02": {
+      "name": "First Ascent - Horizon's Cusp",
+      "offset": 448,
+      "quantity": 4
+    },
+    "rbl_g02": {
+      "name": "Subterra - Penumbra - North",
+      "offset": 832,
+      "quantity": 5
+    },
+    "rbl_g03": {
+      "name": "Subterra - Penumbra - South",
+      "offset": 640,
+      "quantity": 3
+    },
+    "rbl_h02": {
+      "name": "Subterra - Umbra - North",
+      "offset": 960,
+      "quantity": 4
+    },
+    "rbl_h03": {
+      "name": "Subterra - Umbra - South",
+      "offset": 1280,
+      "quantity": 6
+    },
+    "rbl_i02": {
+      "name": "Subterra - Abyssal - North",
+      "offset": 1472,
+      "quantity": 9
+    },
+    "rbl_i03": {
+      "name": "Subterra - Abyssal - South",
+      "offset": 1472,
+      "quantity": 9
+    },
+    "rbl_j02": {
+      "name": "Second Ascent - The Bounds of Truth",
+      "offset": 512,
+      "quantity": 4
+    },
+    "rbl_k01": {
+      "name": "Second Ascent - Station of Banishment",
+      "offset": 1152,
+      "quantity": 9
+    },
+    "rbl_l01": {
+      "name": "Second Ascent - Station of Suffering",
+      "offset": 1216,
+      "quantity": 7
+    },
+    "rbl_m01": {
+      "name": "Second Ascent - Station of Ascension",
+      "offset": 1216,
+      "quantity": 10
+    },
+    "rbl_n01": {
+      "name": "Third Ascent - Spire Ravel - 1st Flight",
+      "offset": 1024,
+      "quantity": 5
+    },
+    "rbl_n02": {
+      "name": "Third Ascent - Spire Ravel - 2nd Flight",
+      "offset": 768,
+      "quantity": 6
+    },
+    "rbl_q01": {
+      "name": "Third Ascent - Empyrean Ravel",
+      "offset": 448,
+      "quantity": 4
+    },
+    "rwf_a03": {
+      "name": "Echoes from Time's Garden",
+      "offset": 576,
+      "quantity": 9
+    },
+    "rwf_b01": {
+      "name": "City of Other Days",
+      "offset": 768,
+      "quantity": 9
+    },
+    "rwf_b02": {
+      "name": "Path of Hidden Blessing",
+      "offset": 448,
+      "quantity": 1
+    },
+    "rwf_c01": {
+      "name": "They Who Thrist Not",
+      "offset": 448,
+      "quantity": 4
+    },
+    "rwf_d01": {
+      "name": "Colosseum",
+      "offset": 448,
+      "quantity": 10
+    },
+    "asp_a03": {
+      "name": "Deck",
+      "offset": 384,
+      "quantity": 1
+    },
+    "nal_a01": {
+      "name": "Stockade",
+      "offset": 640,
+      "quantity": 4
+    },
+    "nal_c01": {
+      "name": "The Black Watch",
+      "offset": 768,
+      "quantity": 10
+    },
+    "nal_c02": {
+      "name": "The Confiscatory",
+      "offset": 448,
+      "quantity": 3
+    },
+    "naf_b01": {
+      "name": "Lower Apartment",
+      "offset": 704,
+      "quantity": 2
+    },
+    "ozm_a01": {
+      "name": "Field of Fallen Wings",
+      "offset": 768,
+      "quantity": 9
+    },
+    "ozm_a02": {
+      "name": "The Switchback",
+      "offset": 768,
+      "quantity": 8
+    },
+    "ozm_a03": {
+      "name": "Haulo Green",
+      "offset": 1152,
+      "quantity": 11
+    },
+    "ozm_b01": {
+      "name": "Dagan Flats",
+      "offset": 704,
+      "quantity": 7
+    },
+    "ozm_b02": {
+      "name": "Field of Light Winds",
+      "offset": 768,
+      "quantity": 2
+    },
+    "ozm_b03": {
+      "name": "The Greensnake",
+      "offset": 704,
+      "quantity": 3
+    },
+    "ozm_c01": {
+      "name": "The Shred",
+      "offset": 640,
+      "quantity": 9
+    },
+    "rsn_b01": {
+      "name": "Port Section",
+      "offset": 960,
+      "quantity": 4
+    },
+    "rsn_b02": {
+      "name": "Large Freight Stores",
+      "offset": 832,
+      "quantity": 6
+    },
+    "rsn_b03": {
+      "name": "Starboard Section",
+      "offset": 1024,
+      "quantity": 6
+    },
+    "rsn_b04": {
+      "name": "Sub-control Room",
+      "offset": 832,
+      "quantity": 4
+    },
+    "rui_a01": {
+      "name": "Falls of Time",
+      "offset": 704,
+      "quantity": 8
+    },
+    "rui_a02": {
+      "name": "Mirror of the Soul",
+      "offset": 832,
+      "quantity": 8
+    },
+    "rui_a03": {
+      "name": "The Acolyte's Burden",
+      "offset": 512,
+      "quantity": 2
+    },
+    "rui_a04": {
+      "name": "Doubt Abandoned",
+      "offset": 768,
+      "quantity": 9
+    },
+    "rui_b01": {
+      "name": "Destiny's March",
+      "offset": 960,
+      "quantity": 7
+    },
+    "rui_b02": {
+      "name": "Templation Eluded",
+      "offset": 768,
+      "quantity": 4
+    },
+    "rui_c01": {
+      "name": "Hall of Shadowlight",
+      "offset": 576,
+      "quantity": 5
+    },
+    "rui_d01": {
+      "name": "Hall of Lambent Darkness",
+      "offset": 576,
+      "quantity": 4
+    },
+    "rui_e01": {
+      "name": "Hall of the Wroth God",
+      "offset": 448,
+      "quantity": 4
+    },
+    "sav_a01": {
+      "name": "Throne Road",
+      "offset": 576,
+      "quantity": 7
+    },
+    "sav_a02": {
+      "name": "Gizas North Bank",
+      "offset": 576,
+      "quantity": 7
+    },
+    "sav_a03": {
+      "name": "Warrior's Wash",
+      "offset": 896,
+      "quantity": 7
+    },
+    "sav_a04": {
+      "name": "Toam Hills",
+      "offset": 640,
+      "quantity": 7
+    },
+    "sav_c01": {
+      "name": "Starfall Field",
+      "offset": 704,
+      "quantity": 11
+    },
+    "sav_c03": {
+      "name": "Gizas South Bank",
+      "offset": 640,
+      "quantity": 6
+    },
+    "sav_d01": {
+      "name": "Throne Road",
+      "offset": 640,
+      "quantity": 4
+    },
+    "sav_d02": {
+      "name": "Warrior's Wash",
+      "offset": 704,
+      "quantity": 6
+    },
+    "sav_d03": {
+      "name": "Gizas North Bank",
+      "offset": 704,
+      "quantity": 5
+    },
+    "sav_d04": {
+      "name": "Toam Hills",
+      "offset": 768,
+      "quantity": 6
+    },
+    "sav_e01": {
+      "name": "Nomad Village",
+      "offset": 512,
+      "quantity": 1
+    },
+    "sav_f01": {
+      "name": "Starfall Field",
+      "offset": 896,
+      "quantity": 7
+    },
+    "sav_f03": {
+      "name": "Gizas South Bank",
+      "offset": 704,
+      "quantity": 6
+    },
+    "sav_g01": {
+      "name": "Tracks of the Beast",
+      "offset": 576,
+      "quantity": 7
+    },
+    "ztc_a01": {
+      "name": "Invitation to Heresy",
+      "offset": 640,
+      "quantity": 9
+    },
+    "ztc_a02": {
+      "name": "Sandfalls",
+      "offset": 576,
+      "quantity": 5
+    },
+    "ztc_a03": {
+      "name": "Hourglass Basin",
+      "offset": 704,
+      "quantity": 4
+    },
+    "ztc_b01": {
+      "name": "The Undershore",
+      "offset": 640,
+      "quantity": 5
+    },
+    "ztc_b02": {
+      "name": "Halls of Ardent Darkness",
+      "offset": 640,
+      "quantity": 6
+    },
+    "ztc_c01": {
+      "name": "The Balamka Fault",
+      "offset": 832,
+      "quantity": 7
+    },
+    "ztc_c02": {
+      "name": "Drybeam Cavern",
+      "offset": 640,
+      "quantity": 6
+    },
+    "ztc_c03": {
+      "name": "Darkness Wharf",
+      "offset": 704,
+      "quantity": 3
+    },
+    "ztc_c04": {
+      "name": "Canopy of Clay",
+      "offset": 704,
+      "quantity": 1
+    },
+    "alc_a01": {
+      "name": "Grand Arcade",
+      "offset": 1536,
+      "quantity": 1
+    },
+    "ald_a01": {
+      "name": "Alley of Muted Sighs",
+      "offset": 3520,
+      "quantity": 9
+    },
+    "ald_a02": {
+      "name": "Alley of Low Whispers",
+      "offset": 6080,
+      "quantity": 11
+    },
+    "rrp_a02": {
+      "name": "Cellars",
+      "offset": 576,
+      "quantity": 6
+    },
+    "rrp_a03": {
+      "name": "Lower Halls",
+      "offset": 384,
+      "quantity": 1
+    },
+    "glf_a03": {
+      "name": "The Elderknoll",
+      "offset": 384,
+      "quantity": 2
+    },
+    "slm_a01": {
+      "name": "North Sprawl",
+      "offset": 448,
+      "quantity": 6
+    },
+    "slm_a02": {
+      "name": "South Sprawl",
+      "offset": 448,
+      "quantity": 5
+    },
+    "var_a01": {
+      "name": "Sea Breeze Lane",
+      "offset": 3008,
+      "quantity": 3
+    },
+    "var_a13": {
+      "name": "Port Villa West",
+      "offset": 1728,
+      "quantity": 1
+    },
+    "var_a14": {
+      "name": "Quayside Court",
+      "offset": 4928,
+      "quantity": 1
+    },
+    "var_a15": {
+      "name": "Port Villa East",
+      "offset": 2240,
+      "quantity": 1
+    },
+    "vic_a01": {
+      "name": "Fane of the Path",
+      "offset": 448,
+      "quantity": 1
+    },
+    "vic_a02": {
+      "name": "The Spiritwood",
+      "offset": 448,
+      "quantity": 2
+    },
+    "mrm_a01": {
+      "name": "Walk of Sky",
+      "offset": 1152,
+      "quantity": 3
+    },
+    "mrm_a02": {
+      "name": "Walk of Mind",
+      "offset": 1280,
+      "quantity": 1
+    },
+    "mrm_b02": {
+      "name": "Cold Distance",
+      "offset": 704,
+      "quantity": 1
+    },
+    "mrm_b03": {
+      "name": "Walk of Prescience",
+      "offset": 704,
+      "quantity": 1
+    },
+    "mrm_b04": {
+      "name": "Walk of Reason",
+      "offset": 1344,
+      "quantity": 10
+    },
+    "mrm_c01": {
+      "name": "Ward of Steel",
+      "offset": 1280,
+      "quantity": 1
+    },
+    "mrm_d01": {
+      "name": "Ward of Velitation",
+      "offset": 1408,
+      "quantity": 3
+    },
+    "mrm_e01": {
+      "name": "Hall of Worth",
+      "offset": 1344,
+      "quantity": 2
+    }
+  }
+}

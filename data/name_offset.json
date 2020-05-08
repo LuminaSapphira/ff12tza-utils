@@ -1,0 +1,2215 @@
+{
+  "Treasure": [
+    {
+      "ID": "Treasure-1",
+      "Name": "Dalmasca Estersand",
+      "Item": [
+        {
+          "ID": "Treasure-1-File-1",
+          "Name": "The Stepping",
+          "File": "dst_a01.ebp",
+          "Offset": "960",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-1-File-2",
+          "Name": "Yandang Labyrinth",
+          "File": "dst_a02.ebp",
+          "Offset": "960",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treaure-1-File-3",
+          "Name": "Sand-swept Naze",
+          "File": "dst_a03.ebp",
+          "Offset": "896",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-1-File-4",
+          "Name": "Banks of the Nebra",
+          "File": "dst_a04.ebp",
+          "Offset": "896",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-1-File-5",
+          "Name": "Outpost",
+          "File": "dst_a07.ebp",
+          "Offset": "384",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-1-File-6",
+          "Name": "The Yoma",
+          "File": "dst_c01.ebp",
+          "Offset": "960",
+          "Quantity": "14"
+        },
+        {
+          "ID": "Treasure-1-File-7",
+          "Name": "Broken Sands",
+          "File": "dst_c02.ebp",
+          "Offset": "896",
+          "Quantity": "13"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-2",
+      "Name": "Dalmasca Westersand",
+      "Item": [
+        {
+          "ID": "Treasure-2-File-1",
+          "Name": "Galtea Downs",
+          "File": "wdl_a01.ebp",
+          "Offset": "832",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-2-File-2",
+          "Name": "Corridor of Sands",
+          "File": "wdl_a02.ebp",
+          "Offset": "768",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-2-File-3",
+          "Name": "Shimmering Horizon",
+          "File": "wdl_a03.ebp",
+          "Offset": "896",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-2-File-4",
+          "Name": "The Midfault",
+          "File": "wdl_a04.ebp",
+          "Offset": "768",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-2-File-5",
+          "Name": "Windtrace Dunes",
+          "File": "wdl_a05.ebp",
+          "Offset": "832",
+          "Quantity": "9"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-3",
+      "Name": "Garamsythe Waterway",
+      "Item": [
+        {
+          "ID": "Treasure-3-File-1",
+          "Name": "North Spur Sluiceway",
+          "File": "grm_a03.ebp",
+          "Offset": "640",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-3-File-2",
+          "Name": "Northern Sluiceway",
+          "File": "grm_a05.ebp",
+          "Offset": "704",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-3-File-3",
+          "Name": "East Waterway Control",
+          "File": "grm_a06.ebp",
+          "Offset": "576",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-3-File-4",
+          "Name": "No. 11 Channel(Water not drained)",
+          "File": "grm_b01.ebp",
+          "Offset": "640",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-3-File-5",
+          "Name": "West Sluice Control",
+          "File": "grm_b03.ebp",
+          "Offset": "576",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-3-File-6",
+          "Name": "No. 10 Channel (Water not drained)",
+          "File": "grm_b04.ebp",
+          "Offset": "704",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-3-File-7",
+          "Name": "Southern Sluiceway",
+          "File": "grm_c01.ebp",
+          "Offset": "512",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-3-File-8",
+          "Name": "No. 11 Channel (Drained water)",
+          "File": "grm_e02.ebp",
+          "Offset": "576",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-3-File-9",
+          "Name": "No. 10 Channel (Drained water)",
+          "File": "grm_e07.ebp",
+          "Offset": "576",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-3-File-10",
+          "Name": "No. 3 Cloaca Spur",
+          "File": "grm_e09.ebp",
+          "Offset": "512",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-3-File-11",
+          "Name": "No. 4 Cloaca Spur (Drained water)",
+          "File": "grm_e12.ebp",
+          "Offset": "512",
+          "Quantity": "3"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-4",
+      "Name": "Barheim Passage",
+      "Item": [
+        {
+          "ID": "Treasure-4-File-1",
+          "Name": "The Litghtworks",
+          "File": "mic_a01.ebp",
+          "Offset": "512",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-4-File-2",
+          "Name": "Great Eastern Passage",
+          "File": "mic_a02.ebp",
+          "Offset": "1600",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-4-File-3",
+          "Name": "Op Sector 36",
+          "File": "mic_a03.ebp",
+          "Offset": "832",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-4-File-4",
+          "Name": "Special Op Sector",
+          "File": "mic_a04.ebp",
+          "Offset": "896",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-4-File-5",
+          "Name": "Op Sector 37",
+          "File": "mic_a05.ebp",
+          "Offset": "960",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-4-File-6",
+          "Name": "Op Sector 29",
+          "File": "mic_a06.ebp",
+          "Offset": "640",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-4-File-7",
+          "Name": "Cgreat Central Passage",
+          "File": "mic_b01.ebp",
+          "Offset": "768",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-4-File-8",
+          "Name": "The Zeviah Subterrane",
+          "File": "mic_b02.ebp",
+          "Offset": "1216",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-4-File-9",
+          "Name": "Terminal No. 7",
+          "File": "mic_d01.ebp",
+          "Offset": "512",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-4-File-10",
+          "Name": "East-West Bypass",
+          "File": "mic_e01.ebp",
+          "Offset": "640",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-4-File-11",
+          "Name": "The Zeviah Span",
+          "File": "mic_e02.ebp",
+          "Offset": "896",
+          "Quantity": "12"
+        },
+        {
+          "ID": "Treasure-4-File-12",
+          "Name": "West Annex",
+          "File": "mic_e03.ebp",
+          "Offset": "1280",
+          "Quantity": "13"
+        },
+        {
+          "ID": "Treasure-4-File-13",
+          "Name": "Terminus No. 7 Adjunct",
+          "File": "mic_e04.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-4-File-14",
+          "Name": "Special Op Sector 5",
+          "File": "mic_e05.ebp",
+          "Offset": "576",
+          "Quantity": "8"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-5",
+      "Name": "Lhusu Mines",
+      "Item": [
+        {
+          "ID": "Treasure-5-File-1",
+          "Name": "Shaft Entry",
+          "File": "lus_a01.ebp",
+          "Offset": "832",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-5-File-2",
+          "Name": "Oltam Span",
+          "File": "lus_a02.ebp",
+          "Offset": "640",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-5-File-3",
+          "Name": "Transitway 1",
+          "File": "lus_a03.ebp",
+          "Offset": "896",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-5-File-4",
+          "Name": "Shunia Twinspan",
+          "File": "lus_b01.ebp",
+          "Offset": "960",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-5-File-5",
+          "Name": "Site 3",
+          "File": "lus_b03.ebp",
+          "Offset": "704",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-5-File-6",
+          "Name": "Site 9",
+          "File": "lus_d01.ebp",
+          "Offset": "960",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-5-File-7",
+          "Name": "Site 11",
+          "File": "lus_d03.ebp",
+          "Offset": "960",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-5-File-8",
+          "Name": "Site 7",
+          "File": "lus_e01.ebp",
+          "Offset": "576",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-5-File-9",
+          "Name": "Lasche Span",
+          "File": "lus_f01.ebp",
+          "Offset": "512",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-5-File-10",
+          "Name": "Site 5",
+          "File": "lus_f02.ebp",
+          "Offset": "1024",
+          "Quantity": "12"
+        },
+        {
+          "ID": "Treasure-5-File-11",
+          "Name": "Site 6 South",
+          "File": "lus_f03.ebp",
+          "Offset": "768",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-5-File-12",
+          "Name": "Site 6 North",
+          "File": "lus_f04.ebp",
+          "Offset": "512",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-5-File-13",
+          "Name": "Staging File",
+          "File": "lus_f05.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-5-File-14",
+          "Name": "Site 2",
+          "File": "lus_g01.ebp",
+          "Offset": "640",
+          "Quantity": "8"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-6",
+      "Name": "Ogir-Yensa Sandsea",
+      "Item": [
+        {
+          "ID": "Treasure-6-File-1",
+          "Name": "Platform 1 - East Tanks",
+          "File": "ene_a01.ebp",
+          "Offset": "1408",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-6-File-2",
+          "Name": "Platform 1 - Refinary",
+          "File": "ene_a02.ebp",
+          "Offset": "1792",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-6-File-3",
+          "Name": "East Junction",
+          "File": "ene_a03.ebp",
+          "Offset": "1856",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-6-File-4",
+          "Name": "Primary Tank Complex",
+          "File": "ene_a04.ebp",
+          "Offset": "2112",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-6-File-5",
+          "Name": "Central Junction",
+          "File": "ene_a05.ebp",
+          "Offset": "1920",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-6-File-6",
+          "Name": "Platform 1 - South Tanks",
+          "File": "ene_a06.ebp",
+          "Offset": "1664",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-6-File-7",
+          "Name": "Platform 2 - Refinary",
+          "File": "ene_a07.ebp",
+          "Offset": "1856",
+          "Quantity": "9"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-7",
+      "Name": "Nam-Yensa Sandsea",
+      "Item": [
+        {
+          "ID": "Treasure-7-File-1",
+          "Name": "The Urutan-Yensa Sea",
+          "File": "enw_a01.ebp",
+          "Offset": "704",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-7-File-2",
+          "Name": "Withering Shores",
+          "File": "enw_a02.ebp",
+          "Offset": "1728",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-7-File-3",
+          "Name": "Augur Hill",
+          "File": "enw_a03.ebp",
+          "Offset": "1408",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-7-File-4",
+          "Name": "Yellow Sands",
+          "File": "enw_a04.ebp",
+          "Offset": "1728",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-7-File-5",
+          "Name": "Demesne of the Sandqueen",
+          "File": "enw_b01.ebp",
+          "Offset": "1024",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-7-File-6",
+          "Name": "Trail of Fading Warmth",
+          "File": "enw_b02.ebp",
+          "Offset": "1408",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-7-File-7",
+          "Name": "Simoon Bluff",
+          "File": "enw_b03.ebp",
+          "Offset": "960",
+          "Quantity": "11"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-8",
+      "Name": "Tomb of Raithwall",
+      "Item": [
+        {
+          "ID": "Treasure-8-File-1",
+          "Name": "Royal Palace",
+          "File": "rwg_c01.ebp",
+          "Offset": "1088",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-8-File-2",
+          "Name": "Southfall Passage",
+          "File": "rwg_c02.ebp",
+          "Offset": "1088",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-8-File-3",
+          "Name": "Northfall Passage",
+          "File": "rwg_c03.ebp",
+          "Offset": "1152",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-8-File-4",
+          "Name": "Cloister of Flame",
+          "File": "rwg_d01.ebp",
+          "Offset": "448",
+          "Quantity": "4"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-9",
+      "Name": "Golmore Jungle",
+      "Item": [
+        {
+          "ID": "Treasure-9-File-1",
+          "Name": "Paths of Chained Ligth",
+          "File": "gol_a01.ebp",
+          "Offset": "1984",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-9-File-2",
+          "Name": "The Needlebrake",
+          "File": "gol_a02.ebp",
+          "Offset": "4288",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-9-File-3",
+          "Name": "The Parting Glade",
+          "File": "gol_a04.ebp",
+          "Offset": "1280",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-9-File-4",
+          "Name": "The Rustling Chapel",
+          "File": "gol_b01.ebp",
+          "Offset": "2240",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-9-File-5",
+          "Name": "Dell of the Dreamer",
+          "File": "gol_c01.ebp",
+          "Offset": "1280",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-9-File-6",
+          "Name": "The Branchway",
+          "File": "gol_d01.ebp",
+          "Offset": "1536",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-9-File-7",
+          "Name": "The Greenswathe",
+          "File": "gol_d02.ebp",
+          "Offset": "1536",
+          "Quantity": "3"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-10",
+      "Name": "Henne Mines",
+      "Item": [
+        {
+          "ID": "Treasure-10-File-1",
+          "Name": "Phase 1 Dig",
+          "File": "hne_a04.ebp",
+          "Offset": "832",
+          "Quantity": "13"
+        },
+        {
+          "ID": "Treasure-10-File-2",
+          "Name": "Crossover A",
+          "File": "hne_a05.ebp",
+          "Offset": "704",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-10-File-3",
+          "Name": "Phase 2 Dig",
+          "File": "hne_c01.ebp",
+          "Offset": "1088",
+          "Quantity": "15"
+        },
+        {
+          "ID": "Treasure-10-File-4",
+          "Name": "Crossover C",
+          "File": "hne_c02.ebp",
+          "Offset": "576",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-10-File-5",
+          "Name": "Phase 2 Shaft",
+          "File": "hne_c04.ebp",
+          "Offset": "832",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-10-File-6",
+          "Name": "Special Charter Shaft",
+          "File": "hne_d01.ebp",
+          "Offset": "1152",
+          "Quantity": "15"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-11",
+      "Name": "Paramina Rift",
+      "Item": [
+        {
+          "ID": "Treasure-11-File-1",
+          "Name": "Head of the Silverflow",
+          "File": "pbc_a02.ebp",
+          "Offset": "768",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-11-File-2",
+          "Name": "Freezing Gorge",
+          "File": "pbc_a03.ebp",
+          "Offset": "576",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-11-File-3",
+          "Name": "Frosen Brook",
+          "File": "pbc_b01.ebp",
+          "Offset": "704",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-11-File-4",
+          "Name": "Icebound Flow",
+          "File": "pbc_b02.ebp",
+          "Offset": "640",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-11-File-5",
+          "Name": "Karydine Glacier",
+          "File": "pbc_b03.ebp",
+          "Offset": "832",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-11-File-6",
+          "Name": "Path of the Firstfall",
+          "File": "pbc_c01.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-11-File-7",
+          "Name": "Spine of the Icewyrm",
+          "File": "pbc_c02.ebp",
+          "Offset": "576",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-11-File-8",
+          "Name": "Silverflow's End",
+          "File": "pbc_c03.ebp",
+          "Offset": "768",
+          "Quantity": "11"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-12",
+      "Name": "Mosphoran Highwaste",
+      "Item": [
+        {
+          "ID": "Treasure-12-File-1",
+          "Name": "Southern Skirts",
+          "File": "mnt_a01.ebp",
+          "Offset": "576",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-12-File-2",
+          "Name": "Summit Path",
+          "File": "mnt_a02.ebp",
+          "Offset": "768",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-12-File-3",
+          "Name": "Rays of Ashen Light",
+          "File": "mnt_b01.ebp",
+          "Offset": "640",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-12-File-4",
+          "Name": "Empyrean Way",
+          "File": "mnt_b02.ebp",
+          "Offset": "768",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-12-File-5",
+          "Name": "Skyreach Ridge",
+          "File": "mnt_b03.ebp",
+          "Offset": "512",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-12-File-6",
+          "Name": "Trail of Sky-flung Stone",
+          "File": "mnt_b04.ebp",
+          "Offset": "704",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-12-File-7",
+          "Name": "Northern Skirts",
+          "File": "mnt_b05.ebp",
+          "Offset": "832",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-12-File-8",
+          "Name": "Halny Crossing",
+          "File": "mnt_b06.ebp",
+          "Offset": "384",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-12-File-9",
+          "Name": "Babbling Vale",
+          "File": "mnt_d01.ebp",
+          "Offset": "512",
+          "Quantity": "4"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-13",
+      "Name": "The Salikawood",
+      "Item": [
+        {
+          "ID": "Treasure-13-File-1",
+          "Name": "Omen Spur",
+          "File": "frs_a01.ebp",
+          "Offset": "640",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-13-File-2",
+          "Name": "Trunkwall Road",
+          "File": "frs_a02.ebp",
+          "Offset": "832",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-13-File-3",
+          "Name": "Diverging Way",
+          "File": "frs_a03.ebp",
+          "Offset": "832",
+          "Quantity": "12"
+        },
+        {
+          "ID": "Treasure-13-File-4",
+          "Name": "Sun-dappled Path",
+          "File": "frs_a04.ebp",
+          "Offset": "704",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-13-File-5",
+          "Name": "Garden of Decay",
+          "File": "frs_a05.ebp",
+          "Offset": "576",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-13-File-6",
+          "Name": "Quietened Trace",
+          "File": "frs_b01.ebp",
+          "Offset": "448",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-13-File-7",
+          "Name": "Grand Bower",
+          "File": "frs_b02.ebp",
+          "Offset": "576",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-13-File-8",
+          "Name": "Corridor of Ages",
+          "File": "frs_c01.ebp",
+          "Offset": "768",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-13-File-9",
+          "Name": "Pielbald Path",
+          "File": "frs_c02.ebp",
+          "Offset": "768",
+          "Quantity": "3"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-14",
+      "Name": "Phon Coast",
+      "Item": [
+        {
+          "ID": "Treasure-14-File-1",
+          "Name": "The Resta Strand",
+          "File": "fon_a01.ebp",
+          "Offset": "704",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-14-File-2",
+          "Name": "Pora-Pora Sands",
+          "File": "fon_a02.ebp",
+          "Offset": "704",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-14-File-3",
+          "Name": "The Mauleia Strand",
+          "File": "fon_a03.ebp",
+          "Offset": "832",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-14-File-4",
+          "Name": "Cape Uahuk",
+          "File": "fon_a04.ebp",
+          "Offset": "704",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-14-File-5",
+          "Name": "Cape Tialan",
+          "File": "fon_a05.ebp",
+          "Offset": "768",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-14-File-6",
+          "Name": "The Hakawea Shore",
+          "File": "fon_a07.ebp",
+          "Offset": "768",
+          "Quantity": "12"
+        },
+        {
+          "ID": "Treasure-14-File-7",
+          "Name": "Caima Hills",
+          "File": "fon_c01.ebp",
+          "Offset": "640",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-14-File-8",
+          "Name": "The Vaddu Strand",
+          "File": "fon_c02.ebp",
+          "Offset": "832",
+          "Quantity": "16"
+        },
+        {
+          "ID": "Treasure-14-File-9",
+          "Name": "Limatra Hills",
+          "File": "fon_c03.ebp",
+          "Offset": "704",
+          "Quantity": "10"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-15",
+      "Name": "Tchita Upland",
+      "Item": [
+        {
+          "ID": "Treasure-15-File-1",
+          "Name": "Uazcuff Hills",
+          "File": "pla_a01.ebp",
+          "Offset": "768",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-15-File-2",
+          "Name": "Sundered Earth",
+          "File": "pla_a02.ebp",
+          "Offset": "832",
+          "Quantity": "12"
+        },
+        {
+          "ID": "Treasure-15-File-3",
+          "Name": "The Highlands",
+          "File": "pla_a03.ebp",
+          "Offset": "1024",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-15-File-4",
+          "Name": "Fields of Eternity",
+          "File": "pla_a04.ebp",
+          "Offset": "832",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-15-File-5",
+          "Name": "The Skytrail",
+          "File": "pla_b01.ebp",
+          "Offset": "1024",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-15-File-6",
+          "Name": "Realm of the Elder Dream",
+          "File": "pla_b02.ebp",
+          "Offset": "896",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-15-File-7",
+          "Name": "The Lost Way",
+          "File": "pla_b03.ebp",
+          "Offset": "832",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-13-File-8",
+          "Name": "Garden of the Life's Circle",
+          "File": "pla_b04.ebp",
+          "Offset": "832",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-15-File-9",
+          "Name": "Oliphzak Rise",
+          "File": "pla_b05.ebp",
+          "Offset": "896",
+          "Quantity": "11"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-16",
+      "Name": "Feywood",
+      "Item": [
+        {
+          "ID": "Treasure-16-File-1",
+          "Name": "Walk of Flitting Rifts",
+          "File": "mfr_a01.ebp",
+          "Offset": "1664",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-16-File-2",
+          "Name": "Walk of Stolen Truths",
+          "File": "mfr_a02.ebp",
+          "Offset": "1728",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-16-File-3",
+          "Name": "Walk of Dancing Shadow",
+          "File": "mfr_a03.ebp",
+          "Offset": "1536",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-16-File-4",
+          "Name": "Redolent Glade",
+          "File": "mfr_b01.ebp",
+          "Offset": "1344",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-16-File-5",
+          "Name": "White Magick's Embrace",
+          "File": "mfr_c01.ebp",
+          "Offset": "1600",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-16-File-6",
+          "Name": "Ice Field of Clearsight",
+          "File": "mfr_c02.ebp",
+          "Offset": "1024",
+          "Quantity": "12"
+        },
+        {
+          "ID": "Treasure-16-File-7",
+          "Name": "The Edge of Reason",
+          "File": "mfr_c03.ebp",
+          "Offset": "1024",
+          "Quantity": "11"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-17",
+      "Name": "Ancient City of Giruvegan",
+      "Item": [
+        {
+          "ID": "Treasure-17-File-1",
+          "Name": "The Trimhala Water-Steps",
+          "File": "gil_b01.ebp",
+          "Offset": "2112",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-17-File-2",
+          "Name": "The Aadha Water-Steps",
+          "File": "gil_b02.ebp",
+          "Offset": "1344",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-17-File-3",
+          "Name": "The Haalm kah Water-Steps",
+          "File": "gil_c01.ebp",
+          "Offset": "1280",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-17-File-4",
+          "Name": "Gate of Fire",
+          "File": "gil_c02.ebp",
+          "Offset": "1728",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-17-File-5",
+          "Name": "Gate of Wind",
+          "File": "gil_d01.ebp",
+          "Offset": "1280",
+          "Quantity": "2"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-18",
+      "Name": "Great Crystal",
+      "Item": [
+        {
+          "ID": "Treasure-18-File-1",
+          "Name": "Kabonii Jilaam Pratii'vaa",
+          "File": "gil_e02.ebp",
+          "Offset": "512",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-18-File-2",
+          "Name": "Kabonii Jilaam Avaa",
+          "File": "gil_e03.ebp",
+          "Offset": "512",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-18-File-3",
+          "Name": "Bhrum Pis Avaa",
+          "File": "gil_f03.ebp",
+          "Offset": "576",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-18-File-4",
+          "Name": "Bhrun Pis Pratii",
+          "File": "gil_f04.ebp",
+          "Offset": "576",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-18-File-5",
+          "Name": "Trahk Jilaan Praa",
+          "File": "gil_g02.ebp",
+          "Offset": "576",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-18-File-6",
+          "Name": "Trahk Jilaan Praa'dii",
+          "File": "gil_g05.ebp",
+          "Offset": "576",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-18-File-7",
+          "Name": "Crystal Peak",
+          "File": "gil_h01.ebp",
+          "Offset": "1344",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-8",
+          "Name": "Dhebon Jilaam Avaapratii",
+          "File": "gil_i08.ebp",
+          "Offset": "576",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-9",
+          "Name": "Sirhru Phullam Praa",
+          "File": "gil_j03.ebp",
+          "Offset": "832",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-10",
+          "Name": "Sirhru Phullam Praa'vaa",
+          "File": "gil_j05.ebp",
+          "Offset": "832",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-11",
+          "Name": "Sirhru Phullam Pratii'vaa",
+          "File": "gil_j06.ebp",
+          "Offset": "832",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-12",
+          "Name": "Sirhru Phullam Udiipratii",
+          "File": "gil_j08.ebp",
+          "Offset": "832",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-13",
+          "Name": "Sirhru Jilaam Praa'vaa",
+          "File": "gil_j13.ebp",
+          "Offset": "576",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-14",
+          "Name": "Sirhrun Jilaam Pratii'vaa",
+          "File": "gil_j14.ebp",
+          "Offset": "576",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-15",
+          "Name": "Uldobi Phullam Pratii'dii",
+          "File": "gil_k06.ebp",
+          "Offset": "704",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-16",
+          "Name": "Uldobi Phullam udiipraa",
+          "File": "gil_k09.ebp",
+          "Offset": "512",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-18-File-17",
+          "Name": "Uldobi Phullam Pratii",
+          "File": "gil_k12.ebp",
+          "Offset": "448",
+          "Quantity": "2"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-19",
+      "Name": "Necrohol of Nabudis",
+      "Item": [
+        {
+          "ID": "Treasure-19-Item-1",
+          "Name": "Hall of Effulgent Light",
+          "File": "bds_a01.ebp",
+          "Offset": "960",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-19-Item-2",
+          "Name": "Cloister of Highborn",
+          "File": "bds_b01.ebp",
+          "Offset": "1088",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-19-Item-3",
+          "Name": "Hall of the Ivory Covenant",
+          "File": "bds_c01.ebp",
+          "Offset": "896",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-19-Item-4",
+          "Name": "Hall of Slummbering Might",
+          "File": "bds_c02.ebp",
+          "Offset": "896",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-19-Item-6",
+          "Name": "The Crucible",
+          "File": "bds_e01.ebp",
+          "Offset": "512",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-19-Item-7",
+          "Name": "Cloister of Solace",
+          "File": "bds_f01.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-19-Item-8",
+          "Name": "Cloister of Reason",
+          "File": "bds_g01.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-20",
+      "Name": "Sky Fortress Bahamuth",
+      "Item": [
+        {
+          "ID": "Treasure-20-Item-1",
+          "Name": "Antichamber - Nort, South and West",
+          "File": "bhm_a03.ebp",
+          "Offset": "1152",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-20-Item-2",
+          "Name": "Antichamber - East",
+          "File": "bhm_a04.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-21",
+      "Name": "Nabreus Deadlands",
+      "Item": [
+        {
+          "ID": "Treasure-21-Item-1",
+          "Name": "Green Crag",
+          "File": "bog_a01.ebp",
+          "Offset": "512",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-21-Item-2",
+          "Name": "Vale of Lingering Sorrow",
+          "File": "bog_a03.ebp",
+          "Offset": "576",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-21-Item-3",
+          "Name": "Echos of the Past",
+          "File": "bog_a05.ebp",
+          "Offset": "640",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-21-Item-4",
+          "Name": "The Slumbermead",
+          "File": "bog_b01.ebp",
+          "Offset": "896",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-21-Item-5",
+          "Name": "The Fog Mutters",
+          "File": "bog_b03.ebp",
+          "Offset": "640",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-21-Item-6",
+          "Name": "Lifeless Strand",
+          "File": "bog_b05.ebp",
+          "Offset": "704",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-21-Item-7",
+          "Name": "Field of the Fallen Lord",
+          "File": "bog_b06.ebp",
+          "Offset": "576",
+          "Quantity": "7"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-22",
+      "Name": "Mt Bur-Omisace",
+      "Item": [
+        {
+          "ID": "Treasure-22-Item-1",
+          "Name": "Temple Grounds",
+          "File": "bul_a03.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasre-23",
+      "Name": "Cerobi Steppe",
+      "Item": [
+        {
+          "ID": "Treasure-23-Item-1",
+          "Name": "Old Elanise Road",
+          "File": "srb_a01.ebp",
+          "Offset": "832",
+          "Quantity": "16"
+        },
+        {
+          "ID": "Treasure-23-Item-2",
+          "Name": "Crossfield",
+          "File": "srb_a02.ebp",
+          "Offset": "768",
+          "Quantity": "14"
+        },
+        {
+          "ID": "Treasure-23-Item-3",
+          "Name": "The Terraced Bank",
+          "File": "srb_a03.ebp",
+          "Offset": "832",
+          "Quantity": "14"
+        },
+        {
+          "ID": "Treasure-23-Item-4",
+          "Name": "North Liavell Hills",
+          "File": "srb_b01.ebp",
+          "Offset": "768",
+          "Quantity": "13"
+        },
+        {
+          "ID": "Treasure-23-Item-5",
+          "Name": "South Liavell Hills",
+          "File": "srb_b02.ebp",
+          "Offset": "704",
+          "Quantity": "15"
+        },
+        {
+          "ID": "Treasure-23-Item-6",
+          "Name": "Feddik River",
+          "File": "srb_b03.ebp",
+          "Offset": "832",
+          "Quantity": "15"
+        },
+        {
+          "ID": "Treasure-23-Item-7",
+          "Name": "The Northsward",
+          "File": "srb_b04.ebp",
+          "Offset": "960",
+          "Quantity": "14"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-24",
+      "Name": "Draklor Laboratory",
+      "Item": [
+        {
+          "ID": "Treasure-24-Item-1",
+          "Name": "Energy Transitarium",
+          "File": "dor_b01.ebp",
+          "Offset": "1408",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-24-Item-2",
+          "Name": "66th Floor",
+          "File": "dor_c03.ebp",
+          "Offset": "1280",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-24-Item-3",
+          "Name": "70th Floor",
+          "File": "dor_c15.ebp",
+          "Offset": "1280",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-24-Item-5",
+          "Name": "67th Floor",
+          "File": "dor_d02.ebp",
+          "Offset": "384",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-24-Item-6",
+          "Name": "68th Floor",
+          "File": "dor_e15.ebp",
+          "Offset": "1280",
+          "Quantity": "4"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-25",
+      "Name": "Pharos at Ridorana",
+      "Item": [
+        {
+          "ID": "Treasure-25-Item-1",
+          "Name": "First Ascent - The Wellspring",
+          "File": "rbl_a01.ebp",
+          "Offset": "448",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-25-Item-2",
+          "Name": "First Ascent - Wellspring Labyrinth",
+          "File": "rbl_b01.ebp",
+          "Offset": "1088",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-25-Item-3",
+          "Name": "First Ascent - Wellspring Ravel / 1st Fligth",
+          "File": "rbl_d01.ebp",
+          "Offset": "832",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-25-Item-4",
+          "Name": "First Ascent - Wellspring Ravel / 2nd Flight",
+          "File": "rbl_d02.ebp",
+          "Offset": "896",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-25-Item-5",
+          "Name": "First Ascent - Wellspring / 3rd Flight",
+          "File": "rbl_e01.ebp",
+          "Offset": "1088",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-25-Item-6",
+          "Name": "First Ascent - Wellspring Ravel / 4th Flight",
+          "File": "rbl_e02.ebp",
+          "Offset": "1152",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-25-Item-7",
+          "Name": "First Ascent - Horizon's Cusp",
+          "File": "rbl_f02.ebp",
+          "Offset": "448",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-25-Item-8",
+          "Name": "Subterra - Penumbra / North",
+          "File": "rbl_g02.ebp",
+          "Offset": "832",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-25-Item-9",
+          "Name": "Subterra - Penumbra / South",
+          "File": "rbl_g03.ebp",
+          "Offset": "640",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-25-Item-10",
+          "Name": "Subterra - Umbra / North",
+          "File": "rbl_h02.ebp",
+          "Offset": "960",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-25-Item-11",
+          "Name": "Subterra - Umbra / South",
+          "File": "rbl_h03.ebp",
+          "Offset": "1280",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-25-Item-12",
+          "Name": "Subterra - Abyssal / North",
+          "File": "rbl_i02.ebp",
+          "Offset": "1472",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-25-Item-13",
+          "Name": "Subterra - Abyssal / South",
+          "File": "rbl_i03.ebp",
+          "Offset": "1472",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-25-Item-14",
+          "Name": "Second Ascent - The Bounds of Truth",
+          "File": "rbl_j02.ebp",
+          "Offset": "512",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-25-Item-15",
+          "Name": "Second Ascent - Station of Banishment",
+          "File": "rbl_k01.ebp",
+          "Offset": "1152",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-25-Item-16",
+          "Name": "Second Ascent - Station of Suffering",
+          "File": "rbl_l01.ebp",
+          "Offset": "1216",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-25-Item-17",
+          "Name": "Second Ascent - Station of Ascension",
+          "File": "rbl_m01.ebp",
+          "Offset": "1216",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-25-Item-18",
+          "Name": "Third Ascent - Spire Ravel / 1st Flight",
+          "File": "rbl_n01.ebp",
+          "Offset": "1024",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-25-Item-19",
+          "Name": "Third Ascent - Spire Ravel / 2nd Flight",
+          "File": "rbl_n02.ebp",
+          "Offset": "768",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-25-Item-20",
+          "Name": "Third Ascent - Empyrean Ravel",
+          "File": "rbl_q01.ebp",
+          "Offset": "448",
+          "Quantity": "4"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-26",
+      "Name": "Ridorana Catarct",
+      "Item": [
+        {
+          "ID": "Treasure-26-Item-1",
+          "Name": "Echoes from Time's Garden",
+          "File": "rwf_a03.ebp",
+          "Offset": "576",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-26-Item-2",
+          "Name": "City of Other Days",
+          "File": "rwf_b01.ebp",
+          "Offset": "768",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-26-Item-3",
+          "Name": "Path of Hidden Blessing",
+          "File": "rwf_b02.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-26-Item-7",
+          "Name": "They Who Thrist Not",
+          "File": "rwf_c01.ebp",
+          "Offset": "448",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-26-Item-8",
+          "Name": "Colosseum",
+          "File": "rwf_d01.ebp",
+          "Offset": "448",
+          "Quantity": "10"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-27",
+      "Name": "Skyferry",
+      "Item": [
+        {
+          "ID": "Treasure-27-Item-1",
+          "Name": "Deck",
+          "File": "asp_a03.ebp",
+          "Offset": "384",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-28",
+      "Name": "Nalbina Dungeons",
+      "Item": [
+        {
+          "ID": "Treasure-28-Item-1",
+          "Name": "Stockade",
+          "File": "nal_a01.ebp",
+          "Offset": "640",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-28-Item-2",
+          "Name": "The Black Watch",
+          "File": "nal_c01.ebp",
+          "Offset": "768",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-28-Item-3",
+          "Name": "The Confiscatory",
+          "File": "nal_c02.ebp",
+          "Offset": "448",
+          "Quantity": "3"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-29",
+      "Name": "Nalbina Fortress (Tutorial)",
+      "Item": [
+        {
+          "ID": "Treasure-29-Item-1",
+          "Name": "Lower Apartment",
+          "File": "naf_b01.ebp",
+          "Offset": "704",
+          "Quantity": "2"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-30",
+      "Name": "Ozmone Plains",
+      "Item": [
+        {
+          "ID": "Treasure-30-Item-1",
+          "Name": "Field of Fallen Wings",
+          "File": "ozm_a01.ebp",
+          "Offset": "768",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-30-Item-2",
+          "Name": "The Switchback",
+          "File": "ozm_a02.ebp",
+          "Offset": "768",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-30-Item-3",
+          "Name": "Haulo Green",
+          "File": "ozm_a03.ebp",
+          "Offset": "1152",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-30-Item-4",
+          "Name": "Dagan Flats",
+          "File": "ozm_b01.ebp",
+          "Offset": "704",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-30-Item-5",
+          "Name": "Field of Light Winds",
+          "File": "ozm_b02.ebp",
+          "Offset": "768",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-30-Item-6",
+          "Name": "The Greensnake",
+          "File": "ozm_b03.ebp",
+          "Offset": "704",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-30-Item-7",
+          "Name": "The Shred",
+          "File": "ozm_c01.ebp",
+          "Offset": "640",
+          "Quantity": "9"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-31",
+      "Name": "Dreadnought Leviathan",
+      "Item": [
+        {
+          "ID": "Treasure-31-Item-1",
+          "Name": "Port Section",
+          "File": "rsn_b01.ebp",
+          "Offset": "960",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-31-Item-2",
+          "Name": "Large Freight Stores",
+          "File": "rsn_b02.ebp",
+          "Offset": "832",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-31-Item-3",
+          "Name": "Starboard Section",
+          "File": "rsn_b03.ebp",
+          "Offset": "1024",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-31-Item-4",
+          "Name": "Sub-control Room",
+          "File": "rsn_b04.ebp",
+          "Offset": "832",
+          "Quantity": "4"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-32",
+      "Name": "Sochen Cave Palace",
+      "Item": [
+        {
+          "ID": "Treasure-32-Item-1",
+          "Name": "Falls of Time",
+          "File": "rui_a01.ebp",
+          "Offset": "704",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-32-Item-2",
+          "Name": "Mirror of the Soul",
+          "File": "rui_a02.ebp",
+          "Offset": "832",
+          "Quantity": "8"
+        },
+        {
+          "ID": "Treasure-32-Item-3",
+          "Name": "The Acolyte's Burden",
+          "File": "rui_a03.ebp",
+          "Offset": "512",
+          "Quantity": "2"
+        },
+        {
+          "ID": "Treasure-32-Item-4",
+          "Name": "Doubt Abandoned",
+          "File": "rui_a04.ebp",
+          "Offset": "768",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-32-Item-5",
+          "Name": "Destiny's March",
+          "File": "rui_b01.ebp",
+          "Offset": "960",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-32-Item-6",
+          "Name": "Templation Eluded",
+          "File": "rui_b02.ebp",
+          "Offset": "768",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-32-Item-7",
+          "Name": "Hall of Shadowlight",
+          "File": "rui_c01.ebp",
+          "Offset": "576",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-32-Item-8",
+          "Name": "Hall of Lambent Darkness",
+          "File": "rui_d01.ebp",
+          "Offset": "576",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-32-Item-9",
+          "Name": "Hall of the Wroth God",
+          "File": "rui_e01.ebp",
+          "Offset": "448",
+          "Quantity": "4"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-33",
+      "Name": "Giza Plains - Dry",
+      "Item": [
+        {
+          "ID": "Treasure-33-Item-1",
+          "Name": "Throne Road",
+          "File": "sav_a01.ebp",
+          "Offset": "576",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-33-Item-2",
+          "Name": "Gizas North Bank",
+          "File": "sav_a02.ebp",
+          "Offset": "576",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-33-Item-3",
+          "Name": "Warrior's Wash",
+          "File": "sav_a03.ebp",
+          "Offset": "896",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-33-Item-4",
+          "Name": "Toam Hills",
+          "File": "sav_a04.ebp",
+          "Offset": "640",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-33-Item-5",
+          "Name": "Starfall Field",
+          "File": "sav_c01.ebp",
+          "Offset": "704",
+          "Quantity": "11"
+        },
+        {
+          "ID": "Treasure-33-Item-6",
+          "Name": "Gizas South Bank",
+          "File": "sav_c03.ebp",
+          "Offset": "640",
+          "Quantity": "6"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-34",
+      "Name": "Giza Plains - Rain",
+      "Item": [
+        {
+          "ID": "Treasure-34-Item-1",
+          "Name": "Throne Road",
+          "File": "sav_d01.ebp",
+          "Offset": "640",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-34-Item-2",
+          "Name": "Warrior's Wash",
+          "File": "sav_d02.ebp",
+          "Offset": "704",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-34-Item-3",
+          "Name": "Gizas North Bank",
+          "File": "sav_d03.ebp",
+          "Offset": "704",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-34-Item-4",
+          "Name": "Toam Hills",
+          "File": "sav_d04.ebp",
+          "Offset": "768",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-34-Item-5",
+          "Name": "Nomad Village",
+          "File": "sav_e01.ebp",
+          "Offset": "512",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-34-Item-6",
+          "Name": "Starfall Field",
+          "File": "sav_f01.ebp",
+          "Offset": "896",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-34-Item-7",
+          "Name": "Gizas South Bank",
+          "File": "sav_f03.ebp",
+          "Offset": "704",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-34-Item-8",
+          "Name": "Tracks of the Beast",
+          "File": "sav_g01.ebp",
+          "Offset": "576",
+          "Quantity": "7"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-35",
+      "Name": "Zertinan Caverns",
+      "Item": [
+        {
+          "ID": "Treasure-35-Item-1",
+          "Name": "Invitation to Heresy",
+          "File": "ztc_a01.ebp",
+          "Offset": "640",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-35-Item-2",
+          "Name": "Sandfalls",
+          "File": "ztc_a02.ebp",
+          "Offset": "576",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-35-Item-3",
+          "Name": "Hourglass Basin",
+          "File": "ztc_a03.ebp",
+          "Offset": "704",
+          "Quantity": "4"
+        },
+        {
+          "ID": "Treasure-35-Item-4",
+          "Name": "The Undershore",
+          "File": "ztc_b01.ebp",
+          "Offset": "640",
+          "Quantity": "5"
+        },
+        {
+          "ID": "Treasure-35-Item-5",
+          "Name": "Halls of Ardent Darkness",
+          "File": "ztc_b02.ebp",
+          "Offset": "640",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-35-Item-6",
+          "Name": "The Balamka Fault",
+          "File": "ztc_c01.ebp",
+          "Offset": "832",
+          "Quantity": "7"
+        },
+        {
+          "ID": "Treasure-35-Item-7",
+          "Name": "Drybeam Cavern",
+          "File": "ztc_c02.ebp",
+          "Offset": "640",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-35-Item-8",
+          "Name": "Darkness Wharf",
+          "File": "ztc_c03.ebp",
+          "Offset": "704",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-35-Item-9",
+          "Name": "Canopy of Clay",
+          "File": "ztc_c04.ebp",
+          "Offset": "704",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-36",
+      "Name": "Imperial City of Archades",
+      "Item": [
+        {
+          "ID": "Treasure-36-Item-1",
+          "Name": "Grand Arcade",
+          "File": "alc_a01.ebp",
+          "Offset": "1536",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-37",
+      "Name": "Old Archades",
+      "Item": [
+        {
+          "ID": "Treasure-37-Item-1",
+          "Name": "Alley of Muted Sighs",
+          "File": "ald_a01.ebp",
+          "Offset": "3520",
+          "Quantity": "9"
+        },
+        {
+          "ID": "Treasure-37-Item-2",
+          "Name": "Alley of Low Whispers",
+          "File": "ald_a02.ebp",
+          "Offset": "6080",
+          "Quantity": "11"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-38",
+      "Name": "Royal Palace",
+      "Item": [
+        {
+          "ID": "Treasure-38-Item-1",
+          "Name": "Cellars",
+          "File": "rrp_a02.ebp",
+          "Offset": "576",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-38-Item-2",
+          "Name": "Lower Halls",
+          "File": "rrp_a03.ebp",
+          "Offset": "384",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-39",
+      "Name": "Jahara, Land of the Garif",
+      "Item": [
+        {
+          "ID": "Treasure-39-Item-1",
+          "Name": "The Elderknoll",
+          "File": "glf_a03.ebp",
+          "Offset": "384",
+          "Quantity": "2"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-40",
+      "Name": "Lowtown",
+      "Item": [
+        {
+          "ID": "Treasure-40-Item-1",
+          "Name": "North Sprawl",
+          "File": "slm_a01.ebp",
+          "Offset": "448",
+          "Quantity": "6"
+        },
+        {
+          "ID": "Treasure-40-Item-2",
+          "Name": "South Sprawl",
+          "File": "slm_a02.ebp",
+          "Offset": "448",
+          "Quantity": "5"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-41",
+      "Name": "Balfoheim Port",
+      "Item": [
+        {
+          "ID": "Treasure-41-Item-1",
+          "Name": "Sea Breeze Lane",
+          "File": "var_a01.ebp",
+          "Offset": "3008",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-41-Item-2",
+          "Name": "Port Villa West",
+          "File": "var_a13.ebp",
+          "Offset": "1728",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-41-Item-3",
+          "Name": "Quayside Court",
+          "File": "var_a14.ebp",
+          "Offset": "4928",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-41-Item-4",
+          "Name": "Port Villa East",
+          "File": "var_a15.ebp",
+          "Offset": "2240",
+          "Quantity": "1"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-42",
+      "Name": "Eruyt Village",
+      "Item": [
+        {
+          "ID": "Treasure-42-Item-1",
+          "Name": "Fane of the Path",
+          "File": "vic_a01.ebp",
+          "Offset": "448",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-42-Item-2",
+          "Name": "The Spiritwood",
+          "File": "vic_a02.ebp",
+          "Offset": "448",
+          "Quantity": "2"
+        }
+      ]
+    },
+    {
+      "ID": "Treasure-43",
+      "Name": "Stillshrine of Miriam",
+      "Item": [
+        {
+          "ID": "Treasure-43-Item-1",
+          "Name": "Walk of Sky",
+          "File": "mrm_a01.ebp",
+          "Offset": "1152",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-43-Item-2",
+          "Name": "Walk of Mind",
+          "File": "mrm_a02.ebp",
+          "Offset": "1280",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-43-Item-3",
+          "Name": "Cold Distance",
+          "File": "mrm_b02.ebp",
+          "Offset": "704",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-43-Item-4",
+          "Name": "Walk of Prescience",
+          "File": "mrm_b03.ebp",
+          "Offset": "704",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-43-Item-5",
+          "Name": "Walk of Reason",
+          "File": "mrm_b04.ebp",
+          "Offset": "1344",
+          "Quantity": "10"
+        },
+        {
+          "ID": "Treasure-43-Item-6",
+          "Name": "Ward of Steel",
+          "File": "mrm_c01.ebp",
+          "Offset": "1280",
+          "Quantity": "1"
+        },
+        {
+          "ID": "Treasure-43-Item-7",
+          "Name": "Ward of Velitation",
+          "File": "mrm_d01.ebp",
+          "Offset": "1408",
+          "Quantity": "3"
+        },
+        {
+          "ID": "Treasure-43-Item-8",
+          "Name": "Hall of Worth",
+          "File": "mrm_e01.ebp",
+          "Offset": "1344",
+          "Quantity": "2"
+        }
+      ]
+    }
+  ]
+}
