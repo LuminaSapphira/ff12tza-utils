@@ -20,5 +20,7 @@ pub enum Opts {
         battle_pack: PathBuf,
         #[structopt(parse(from_os_str))]
         magick_order: PathBuf,
+        #[structopt(parse(from_os_str))]
+        output: PathBuf,
     },
 }

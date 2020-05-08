@@ -60,7 +60,7 @@ fn read_to_end(file: File) -> Vec<u8> {
 
 const MAGICK_SIGNATURE: [u8; 12] = [81, 0, 0, 0, 8, 0, 0, 0, 32, 0, 0, 0];
 
-pub fn reorder_magick(battle_pack: PathBuf, magick_order: PathBuf) {
+pub fn reorder_magick(battle_pack: PathBuf, magick_order: PathBuf, output: PathBuf) {
     assert_exists!(battle_pack, "battle pack");
     assert_exists!(magick_order, "magick order data");
     let file_order = calculate_file_order(read_requested_order(open_file(magick_order)));
@@ -81,10 +81,15 @@ pub fn reorder_magick(battle_pack: PathBuf, magick_order: PathBuf) {
         battle_pack_bin[offset] = sort;
     }
 
-    File::create("test.bin").expect("uwu").write_all(&battle_pack_bin).expect("owo");
-
-
-
+    match File::create(&output)
+        .and_then(|mut file| file.write_all(&battle_pack_bin)) {
+        Ok(_) => {
+            println!("Successfully updated battle pack binary and wrote result to {:?}", &output);
+        },
+        Err(err) => {
+            eprintln!("Failed to write output data. Error: {}", err);
+        }
+    }
 
 }
 
