@@ -1,0 +1,362 @@
+Base10	Base16(BE)	Name
+0	0000	Quickening-A
+1	0001	Quickening-B
+2	0002	Quickening-C
+3	0003	Quickening-D
+4	0004	Quickening-E
+5	0005	Quickening-F
+6	0006	Quickening-G
+7	0007	Quickening-H
+8	0008	Quickening-I
+9	0009	Quickening-J
+10	000A	Quickening-K
+11	000B	Quickening-L
+12	000C	Quickening-M
+13	000D	Quickening-N
+14	000E	Quickening-O
+15	000F	Quickening-P
+16	0010	Quickening-Q
+17	0011	Quickening-R
+18	0012	Belias
+19	0013	Mateus
+20	0014	Adrammelech
+21	0015	Hashmal
+22	0016	Cúchulainn
+23	0017	Famfrit
+24	0018	Zalera
+25	0019	Shemhazai
+26	001A	Chaos
+27	001B	Zeromus
+28	001C	Exodus
+29	001D	Ultima
+30	001E	Zodiark
+31	001F	Essentials
+32	0020	Swords 1
+33	0021	Swords 2
+34	0022	Swords 3
+35	0023	Swords 4
+36	0024	Swords 5
+37	0025	Swords 6
+38	0026	Swords 7
+39	0027	Blood Sword
+40	0028	Greatswords 1
+41	0029	Greatswords 2
+42	002A	Greatswords 3
+43	002B	Excalibur
+44	002C	Tournesol
+45	002D	Katana 1
+46	002E	Katana 2
+47	002F	Katana 3
+48	0030	Katana 4
+49	0031	Masamune
+50	0032	Ninja Swords 1
+51	0033	Ninja Swords 2
+52	0034	Yagyu Darkblade & Mesa
+53	0035	Spears 1
+54	0036	Spears 2
+55	0037	Spears 3
+56	0038	Spears 4
+57	0039	Spears 5
+58	003A	Dragon Whisker
+59	003B	Zodiac Spear
+60	003C	Poles 1
+61	003D	Poles 2
+62	003E	Poles 3
+63	003F	Poles 4
+64	0040	Poles 5
+65	0041	Whale Whisker
+66	0042	Bows 1
+67	0043	Bows 2
+68	0044	Bows 3
+69	0045	Bows 4
+70	0046	Bows 5
+71	0047	Bows 6
+72	0048	Sagittarius
+73	0049	Crossbows 1
+74	004A	Crossbows 2
+75	004B	Crossbows 3
+76	004C	Crossbows 4
+77	004D	Guns 1
+78	004E	Guns 2
+79	004F	Guns 3
+80	0050	Guns 4
+81	0051	Guns 5
+82	0052	Guns 6
+83	0053	Axes & Hammers 1
+84	0054	Axes & Hammers 2
+85	0055	Axes & Hammers 3
+86	0056	Axes & Hammers 4
+87	0057	Axes & Hammers 5
+88	0058	Axes & Hammers 6
+89	0059	Axes & Hammers 7
+90	005A	Daggers 1
+91	005B	Daggers 2
+92	005C	Daggers 3
+93	005D	Daggers 4
+94	005E	Daggers 5
+95	005F	Shikari Nagasa & Mina
+96	0060	Rods 1
+97	0061	Rods 2
+98	0062	Rods 3
+99	0063	Rods 4
+100	0064	Rod of Faith
+101	0065	Staves 1
+102	0066	Staves 2
+103	0067	Staves 3
+104	0068	Staves 4
+105	0069	Staff of the Magi
+106	006A	Maces 1
+107	006B	Maces 2
+108	006C	Maces 3
+109	006D	Maces 4
+110	006E	Maces 5
+111	006F	Measures 1
+112	0070	Measures 2
+113	0071	Measures 3
+114	0072	Hand-bombs 1
+115	0073	Hand-bombs 2
+116	0074	Hand-bombs 3
+117	0075	Shields 1
+118	0076	Shields 2
+119	0077	Shields 3
+120	0078	Shields 4
+121	0079	Shields 5
+122	007A	Shields 6
+123	007B	Ensanguined Shield
+124	007C	Shell Shield
+125	007D	Zodiac Eschutcheon
+126	007E	Heavy Armor 1
+127	007F	Heavy Armor 2
+128	0080	Heavy Armor 3
+129	0081	Heavy Armor 4
+130	0082	Heavy Armor 5
+131	0083	Heavy Armor 6
+132	0084	Heavy Armor 7
+133	0085	Heavy Armor 8
+134	0086	Heavy Armor 9
+135	0087	Heavy Armor 10
+136	0088	Genji Armor
+137	0089	Light Armor 1
+138	008A	Light Armor 2
+139	008B	Light Armor 3
+140	008C	Light Armor 4
+141	008D	Light Armor 5
+142	008E	Light Armor 6
+143	008F	Light Armor 7
+144	0090	Light Armor 8
+145	0091	Light Armor 9
+146	0092	Light Armor 10
+147	0093	Light Armor 11
+148	0094	Light Armor 12
+149	0095	Mystic Armor 1
+150	0096	Mystic Armor 2
+151	0097	Mystic Armor 3
+152	0098	Mystic Armor 4
+153	0099	Mystic Armor 5
+154	009A	Mystic Armor 6
+155	009B	Mystic Armor 7
+156	009C	Mystic Armor 8
+157	009D	Mystic Armor 9
+158	009E	Mystic Armor 10
+159	009F	Mystic Armor 11
+160	00A0	Mystic Armor 12
+161	00A1	Accessories 1
+162	00A2	Accessories 2
+163	00A3	Accessories 3
+164	00A4	Accessories 4
+165	00A5	Accessories 5
+166	00A6	Accessories 6
+167	00A7	Accessories 7
+168	00A8	Accessories 8
+169	00A9	Accessories 9
+170	00AA	Accessories 10
+171	00AB	Accessories 11
+172	00AC	Accessories 12
+173	00AD	Accessories 13
+174	00AE	Accessories 14
+175	00AF	Accessories 15
+176	00B0	Accessories 16
+177	00B1	Accessories 17
+178	00B2	Accessories 18
+179	00B3	Accessories 19
+180	00B4	Accessories 20
+181	00B5	Ribbon
+182	00B6	White Magick 1
+183	00B7	White Magick 2
+184	00B8	White Magick 3
+185	00B9	White Magick 4
+186	00BA	White Magick 5
+187	00BB	White Magick 6
+188	00BC	White Magick 7
+189	00BD	White Magick 8
+190	00BE	Black Magick 1
+191	00BF	Black Magick 2
+192	00C0	Black Magick 3
+193	00C1	Black Magick 4
+194	00C2	Black Magick 5
+195	00C3	Black Magick 6
+196	00C4	Black Magick 7
+197	00C5	Black Magick 8
+198	00C6	Time Magick 1
+199	00C7	Time Magick 2
+200	00C8	Time Magick 3
+201	00C9	Time Magick 4
+202	00CA	Time Magick 5
+203	00CB	Time Magick 6
+204	00CC	Time Magick 7
+205	00CD	Green Magick 1
+206	00CE	Green Magick 2
+207	00CF	Green Magick 3
+208	00D0	White Magick 10
+209	00D1	White Magick 11
+210	00D2	White Magick 12
+211	00D3	White Magick 13
+212	00D4	Arcane Magick 1
+213	00D5	Arcane Magick 2
+214	00D6	Arcane Magick 3
+215	00D7	Black Magick 11
+216	00D8	Black Magick 12
+217	00D9	Black Magick 13
+218	00DA	Time Magick 9
+219	00DB	Warmage
+220	00DC	Martyr
+221	00DD	Inquisitor
+222	00DE	Headsman
+223	00DF	Adrenaline
+224	00E0	Spellbreaker
+225	00E1	Focus
+226	00E2	Serenity
+227	00E3	Last Stand
+228	00E4	Spellbound
+229	00E5	Brawler
+230	00E6	Shield Block
+231	00E7	Shield Block
+232	00E8	Shield Block
+233	00E9	Channelling
+234	00EA	Channelling
+235	00EB	Channelling
+236	00EC	Swiftness
+237	00ED	Swiftness
+238	00EE	Swiftness
+239	00EF	Remedy Lore 1
+240	00F0	Remedy Lore 2
+241	00F1	Remedy Lore 3
+242	00F2	Potion Lore 1
+243	00F3	Potion Lore 2
+244	00F4	Potion Lore 3
+245	00F5	Ether Lore 1
+246	00F6	Ether Lore 2
+247	00F7	Ether Lore 3
+248	00F8	Phoenix Lore
+249	00F9	Phoenix Lore
+250	00FA	Phoenix Lore
+251	00FB	Battle Lore-A
+252	00FC	Battle Lore-B
+253	00FD	Battle Lore-C
+254	00FE	Battle Lore-D
+255	00FF	Battle Lore-E
+256	0100	Magick Lore-A
+257	0101	Magick Lore-B
+258	0102	Magick Lore-C
+259	0103	Magick Lore-D
+260	0104	Magick Lore-E
+261	0105	+30 HP-A
+262	0106	+70 HP-B
+263	0107	+110 HP-C
+264	0108	+150 HP-D
+265	0109	+190 HP-E
+266	010A	Gambit Slot-A
+267	010B	Gambit Slot-B
+268	010C	Gambit Slot-C
+269	010D	Gambit Slot-D
+270	010E	Gambit Slot-E
+271	010F	Gambit Slot-F
+272	0110	Gambit Slot-G
+273	0111	Gambit Slot-H
+274	0112	Gambit Slot-I
+275	0113	Gambit Slot-J
+276	0114	Steal
+277	0115	Libra
+278	0116	First Aid
+279	0117	Poach
+280	0118	Charge
+281	0119	Horology
+282	011A	Souleater
+283	011B	Traveler
+284	011C	Numerology
+285	011D	Shear
+286	011E	Achilles
+287	011F	Gil Toss
+288	0120	Charm
+289	0121	Sight Unseeing
+290	0122	Infuse
+291	0123	Addle
+292	0124	Bonecrusher
+293	0125	Shades of Black
+294	0126	Stamp
+295	0127	Expose
+296	0128	Revive
+297	0129	1000 Needles
+298	012A	Wither
+299	012B	Telekenesis
+300	012C	+230 HP-F
+301	012D	+270 HP-G
+302	012E	+310 HP-H
+303	012F	+350 HP-I
+304	0130	+390 HP-J
+305	0131	+435 HP-K
+306	0132	+500 HP-L
+307	0133	Battle Lore-F
+308	0134	Battle Lore-G
+309	0135	Battle Lore-H
+310	0136	Battle Lore-I
+311	0137	Battle Lore-J
+312	0138	Battle Lore-K
+313	0139	Battle Lore-L
+314	013A	Battle Lore-M
+315	013B	Battle Lore-N
+316	013C	Battle Lore-O
+317	013D	Battle Lore-P
+318	013E	Magick Lore-F
+319	013F	Magick Lore-G
+320	0140	Magick Lore-H
+321	0141	Magick Lore-I
+322	0142	Magick Lore-J
+323	0143	Magick Lore-K
+324	0144	Magick Lore-L
+325	0145	Magick Lore-M
+326	0146	Magick Lore-N
+327	0147	Magick Lore-O
+328	0148	Magick Lore-P
+329	0149	Swords 8
+330	014A	Swords 9
+331	014B	Karkata
+332	014C	Greatswords 4
+333	014D	Excalipur
+334	014E	Katana 5
+335	014F	Kumbha
+336	0150	Ninja Swords 3
+337	0151	Vrsabha
+338	0152	Poles 6
+339	0153	Kanya
+340	0154	Bows 7
+341	0155	Dhanusha
+342	0156	Mithuna
+343	0157	Vrscika
+344	0158	Daggers 6
+345	0159	Staves 5
+346	015A	Measures 4
+347	015B	Makara
+348	015C	Shields 7
+349	015D	Heavy Armor 11
+350	015E	Heavy Armor 12
+351	015F	Light Armor 13
+352	0160	Mystic Armor 13
+353	0161	Accessories 21
+354	0162	Accessories 22
+355	0163	White Magick 9
+356	0164	Black Magick 9
+357	0165	Time Magick 8
+358	0166	Black Magick 10
+359	0167	Time Magick 10
+360	0168	Second Board

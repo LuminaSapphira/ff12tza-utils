@@ -1,11 +1,20 @@
 # Treasure data files
 
-The treasure data can be found within zone-specific data files. These
-files contain a variety of data other than treasure so the
+The treasure data can be found within zone-specific data files, located
+at:
+
+`ps2data/plan_master/in/plan_map/${zone_prefix}/${zone}/global/${zone}.ebp`
+
+Where `zone_prefix` is the zone ID without the number, and `zone` is the
+zone ID. IDs can be found in the `treasure_data.json`, linked below.
+
+---
+
+These files contain a variety of data other than treasure so the
 treasure-specific section must be located first. In the case of
 treasure, exact offsets to each zone's treasure can be found in the data
-folder - [`treasure_data.json`](../data/treasure_data.json). Note that due
-to JSON restrictions, these offsets are in base 10 / decimal.
+folder - [`treasure_data.json`](../data/treasure_data.json). Note that
+due to JSON restrictions, these offsets are in base 10 / decimal.
 
 After seeking to the treasure data offset, the treasure format is an
 array with the size specified in the JSON. Each element is a 24 byte
