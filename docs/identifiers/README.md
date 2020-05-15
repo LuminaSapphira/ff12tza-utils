@@ -1,5 +1,5 @@
 # Identifiers
-*Credit to @Xeavin of the Sky Pirate's Den Discord server for this
+*Credit to @Xeavin and @Raiden Ripper of the Sky Pirate's Den Discord server for this
 compilation*
 
 ---
