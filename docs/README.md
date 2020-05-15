@@ -10,5 +10,6 @@ modding.
 
 * [Treasure data files](treasure.md)
 * [Item IDs](../data/item_data.json)
-* [Battle Pack information](battle_pack/README.md)
+* [Battle Pack information](battle_pack)
 * [License Board Files](license_board.md)
+* [Identifiers](identifiers)

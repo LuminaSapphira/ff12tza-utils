@@ -43,4 +43,4 @@ spells), and all will disappear if one is opened.
 
 \*\* *(D)* indicates Diamond Armlet.
 
-Item IDs can be found in [`item_data.json`](../data/item_data.json)
+Valid Inventory IDs can be found in the Inventory section of [Identifiers](identifiers/README.md)
