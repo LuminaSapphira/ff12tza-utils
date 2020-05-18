@@ -4,11 +4,7 @@ use std::io::{Read, Write};
 
 mod base_order;
 
-macro_rules! assert_exists {
-    ($file:expr, $desc:expr) => {
-        if !$file.exists() { eprintln!("Missing {} file", $desc); std::process::exit(1); }
-    };
-}
+use crate::assert_exists;
 
 fn open_file(pb: PathBuf) -> File {
     match File::open(&pb) {

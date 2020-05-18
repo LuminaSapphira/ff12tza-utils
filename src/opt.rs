@@ -45,6 +45,11 @@ pub enum BattlePack {
         #[structopt(parse(from_os_str))]
         battle_pack: PathBuf,
     },
+    /// Modify the provided battle pack to allow all weapons to hit flying enemies
+    AllowAllFlying {
+        #[structopt(parse(from_os_str))]
+        battle_pack: PathBuf,
+    },
     #[cfg(feature = "battle_fuse")]
     /// Create a FUSE of the battle_pack, in the same format as unpack
     Fuse {
