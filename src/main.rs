@@ -8,12 +8,26 @@ mod vbf;
 
 use opt::Opts;
 use structopt::StructOpt;
+use std::io::Write;
 
 #[macro_export]
 macro_rules! assert_exists {
     ($file:expr, $desc:expr) => {
         if !$file.exists() { eprintln!("Missing {} file", $desc); std::process::exit(1); }
     };
+}
+
+#[macro_export]
+macro_rules! error_abort {
+    ($code:expr) => { error_exit($code, format_args!()); };
+    ($code:expr, $($arg:tt)*) => { $crate::error_exit($code, format_args!($($arg)*)); };
+}
+
+#[inline]
+fn error_exit(code: i32, args: std::fmt::Arguments) -> ! {
+    std::io::stderr().write_fmt(args).expect("Writing to stderr");
+    std::io::stderr().write(&['\n' as u8]).expect("Writing to stderr");
+    std::process::exit(code);
 }
 
 fn main() {
