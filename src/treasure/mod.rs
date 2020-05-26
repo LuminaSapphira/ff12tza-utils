@@ -51,8 +51,8 @@ struct ZoneData {
 #[derive(Copy, Clone, Debug)]
 pub struct ZoneTreasure {
     id: u32,
-    pos_x: u16,
-    pos_y: u16,
+    pos_x: i16,
+    pos_y: i16,
     respawn_slot: u8,
     spawn_chance: u8,
     gil_chance: u8,
@@ -136,8 +136,8 @@ impl Write for OutputWriter {
     }
 }
 
-pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: PathBuf, item_data: PathBuf) {
-
+pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: PathBuf, item_data: PathBuf, create_maps: bool) {
+    assert!(!(output.is_some() ^ create_maps));
     let (treasure_data, item_data) = get_datas(treasure_data, item_data);
 
     if !input.exists() {
@@ -186,8 +186,8 @@ pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: Pat
             }
         }
 
-        let writer = output.as_ref().map(|dir| dir.join(group).join(&zone.name).with_extension("txt"));
-        let mut writer = match writer {
+        let writer_path = output.as_ref().map(|dir| dir.join(group).join(&zone.name).with_extension("txt"));
+        let mut writer = match writer_path.as_ref() {
             Some(file_path) => {
                 match File::create(&file_path) { Ok(file) => OutputWriter::File(file), Err(err) => { eprintln!("Error creating file {:?}. Error: {}", file_path, err); continue; }}
             },
@@ -200,9 +200,17 @@ pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: Pat
         if let Err(e) = write_res { eprintln!("Error writing to file. {}", e); continue; }
         let res = File::open(path.as_path()).map_err(|e| TreasureError::from(e))
             .and_then(|file| read_treasure_files(file, &zone));
+
         match res {
             Ok(zone_treasures) => {
-                plotter::plot(&zone.name, &zone_treasures).expect("creating chart");
+                if create_maps {
+                    let svg_path = writer_path.as_ref().unwrap().with_extension("svg");
+                    if let Err(err) = plotter::plot(&svg_path, &zone.name, &zone_treasures) {
+                        eprintln!("Failed to create SVG map for {}. Error: {}", &zone.name, err);
+                    }
+                }
+                // plotter::plot()
+                // plotter::plot(&zone.name, &zone_treasures).expect("creating chart");
                 for treasure in zone_treasures {
                     let first_item = item_data.ids[&treasure.first_item].as_str();
                     let second_item = item_data.ids[&treasure.second_item].as_str();
@@ -259,8 +267,8 @@ fn read_treasure_files<R: Read + Seek>(reader: R, data: &ZoneData) -> Result<Vec
 
         treasures.push(ZoneTreasure {
             id: cursor.read_u32::<LE>()?,
-            pos_x: cursor.read_u16::<LE>()?,
-            pos_y: cursor.read_u16::<LE>()?,
+            pos_x: cursor.read_i16::<LE>()?,
+            pos_y: cursor.read_i16::<LE>()?,
             respawn_slot: {cursor.read_u8()?; cursor.read_u8()?},
             spawn_chance: cursor.read_u8()?,
             gil_chance: cursor.read_u8()?,

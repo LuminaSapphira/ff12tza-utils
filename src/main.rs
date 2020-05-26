@@ -33,7 +33,7 @@ fn error_exit(code: i32, args: std::fmt::Arguments) -> ! {
 fn main() {
     let opts: Opts = Opts::from_args();
     match opts {
-        Opts::DumpTreasure { input, output, treasure_data, item_data } => treasure::dump_treasure(input, output, treasure_data, item_data),
+        Opts::DumpTreasure { create_maps, input, output, treasure_data, item_data } => treasure::dump_treasure(input, output, treasure_data, item_data, create_maps),
         Opts::ReorderMagick { battle_pack, magick_order, output } => magick_order::reorder_magick(battle_pack, magick_order, output),
         Opts::BattlePack(bp) => match_battle_pack(bp),
         Opts::VBF(vbf) => match_vbf(vbf),

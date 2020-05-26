@@ -7,7 +7,11 @@ use std::path::PathBuf;
 pub enum Opts {
     /// Dump all treasure info (position, contents, chances, etc.)
     DumpTreasure {
+        /// Whether to dump .svg maps of the obtained treasure info
+        #[structopt(long, requires_all(&["output"]))]
+        create_maps: bool,
         #[structopt(parse(from_os_str))]
+        /// A directory of files containing zone scripts. Typically ps2data/plan_master/in/plan_map
         input: PathBuf,
         #[structopt(parse(from_os_str))]
         output: Option<PathBuf>,

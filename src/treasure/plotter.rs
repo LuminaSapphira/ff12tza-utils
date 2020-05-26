@@ -1,8 +1,10 @@
 use plotters::prelude::*;
 
+use std::path::Path;
+
 use crate::treasure::ZoneTreasure;
 
-pub fn plot<S: AsRef<str>>(name: &S, zone_data: &Vec<ZoneTreasure>) -> Result<(), Box<dyn std::error::Error>>{
+pub fn plot<P: AsRef<Path>, S: AsRef<str>>(output_path: &P, name: &S, zone_data: &Vec<ZoneTreasure>) -> Result<(), Box<dyn std::error::Error>> {
     let name = name.as_ref();
     let x_max = zone_data.iter().map(|a| a.pos_x).max().unwrap();
     let y_max = zone_data.iter().map(|a| a.pos_y).max().unwrap();
@@ -12,8 +14,7 @@ pub fn plot<S: AsRef<str>>(name: &S, zone_data: &Vec<ZoneTreasure>) -> Result<()
     let x_dif = (x_max - x_min) as u32;
     let y_dif = (y_max - y_min) as u32;
 
-    let file = format!("output/_svg/{}.svg", name);
-    let root = SVGBackend::new(&file, (x_dif + 200, y_dif + 200)).into_drawing_area();
+    let root = SVGBackend::new(output_path.as_ref(), (x_dif + 200, y_dif + 200)).into_drawing_area();
     root.fill(&WHITE)?;
     let root = root.margin(10, 10, 10, 10);
     let mut chart = ChartBuilder::on(&root)
