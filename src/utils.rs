@@ -25,7 +25,7 @@ pub fn locate_signature<R: Read + Seek>(reader: &mut R, signature: &[u8]) -> Opt
                     match find_in_slice(&buffer, signature) {
                         Some(n) => { return Some(n + read_bytes as usize); },
                         None => {
-                            'find_partial: for i in 1..signature.len() {
+                            for i in 1..signature.len() {
                                 let buf_end = &buffer[buffer.len() - i .. buffer.len()];
                                 let sig_start = &signature[0..i];
                                 if buf_end == sig_start {

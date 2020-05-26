@@ -26,7 +26,17 @@ pub enum Opts {
         output: PathBuf,
     },
     /// Utilities for unpacking the battle pack
-    BattlePack(BattlePack)
+    BattlePack(BattlePack),
+    /// Utilities regarding the .VBF file
+    VBF(Vbf),
+}
+#[derive(StructOpt, Debug)]
+pub enum Vbf {
+    /// Analyze the provided VBF
+    Analyze {
+        #[structopt(parse(from_os_str))]
+        vbf: PathBuf,
+    }
 }
 
 #[derive(StructOpt, Debug)]

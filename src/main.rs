@@ -4,6 +4,7 @@ mod treasure;
 mod magick_order;
 mod battle_pack;
 mod utils;
+mod vbf;
 
 use opt::Opts;
 use structopt::StructOpt;
@@ -20,7 +21,14 @@ fn main() {
     match opts {
         Opts::DumpTreasure { input, output, treasure_data, item_data } => treasure::dump_treasure(input, output, treasure_data, item_data),
         Opts::ReorderMagick { battle_pack, magick_order, output } => magick_order::reorder_magick(battle_pack, magick_order, output),
-        Opts::BattlePack(bp) => match_battle_pack(bp)
+        Opts::BattlePack(bp) => match_battle_pack(bp),
+        Opts::VBF(vbf) => match_vbf(vbf),
+    }
+}
+
+fn match_vbf(opts: opt::Vbf) {
+    match opts {
+        opt::Vbf::Analyze { vbf } => vbf::analyze(vbf),
     }
 }
 
