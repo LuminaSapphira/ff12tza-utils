@@ -163,6 +163,9 @@ pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: Pat
         .map(|it| if it.path_is_symlink() { std::fs::read_link(it.path()) } else { Ok(it.into_path()) })
         .filter_map(|it| it.ok());
 
+    let mut slot_binds = Vec::with_capacity(255);
+    for _ in 0..255 { slot_binds.push(Vec::new()); }
+
     for path in iter {
         let file_stem = path.file_stem().unwrap().to_str().unwrap().to_owned();
 
@@ -192,8 +195,8 @@ pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: Pat
         };
 
         let write_res = writeln!(writer, "{}", &zone.name)
-            .and_then(|_| writeln!(writer, "\t{:3}{:6}{:6}{:6}{:20}{:20}{:20}{:20}{:5}{:>6}{:>6}", "ID", "Spn%", "Gil%", "Gil", "Item 1 (%50%)", "Item 2 (50%)", "DA 1 (95%)", "DA 2 (5%)", "DGil", "X", "Y"))
-            .and_then(|_| writeln!(writer, "\t{:=<115}", "="));
+            .and_then(|_| writeln!(writer, "\t{:3}{:6}{:6}{:6}{:6}{:20}{:20}{:20}{:20}{:5}{:>6}{:>6}", "ID", "Slot", "Spn%", "Gil%", "Gil", "Item 1 (%50%)", "Item 2 (50%)", "DA 1 (95%)", "DA 2 (5%)", "DGil", "X", "Y"))
+            .and_then(|_| writeln!(writer, "\t{:=<124}", "="));
         if let Err(e) = write_res { eprintln!("Error writing to file. {}", e); continue; }
         let res = File::open(path.as_path()).map_err(|e| TreasureError::from(e))
             .and_then(|file| read_treasure_files(file, &zone));
@@ -205,7 +208,10 @@ pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: Pat
                     let second_item = item_data.ids[&treasure.second_item].as_str();
                     let rare_first_item = item_data.ids[&treasure.rare_first_item].as_str();
                     let rare_second_item = item_data.ids[&treasure.rare_second_item].as_str();
-                    if let Err(e) = writeln!(writer, "\t{:<3}{:<6}{:<6}{:<6}{:20}{:20}{:20}{:20}{:5}{:6}{:6}", treasure.id, treasure.spawn_chance, treasure.gil_chance, treasure.gil_amount, first_item, second_item, rare_first_item, rare_second_item, treasure.rare_gil_amount, treasure.pos_x, treasure.pos_y) {
+                    if treasure.respawn_slot != 255 {
+                        (&mut slot_binds[treasure.respawn_slot as usize]).push((zone.name.clone(), group.to_string(), treasure.id, String::from(first_item)));
+                    }
+                    if let Err(e) = writeln!(writer, "\t{:<3}{:<6x}{:<6}{:<6}{:<6}{:20}{:20}{:20}{:20}{:5}{:6}{:6}", treasure.id, treasure.respawn_slot, treasure.spawn_chance, treasure.gil_chance, treasure.gil_amount, first_item, second_item, rare_first_item, rare_second_item, treasure.rare_gil_amount, treasure.pos_x, treasure.pos_y) {
                         eprintln!("Error writing to file. {}", e); continue;
                     }
                 }
@@ -214,6 +220,27 @@ pub fn dump_treasure(input: PathBuf, output: Option<PathBuf>, treasure_data: Pat
                 eprintln!("An error occurred while processing file {:?}. Error: {}", path.as_path(), err);
             }
         }
+
+    }
+    let mut slot_out = if let Some(out_dir) = output.as_ref() {
+        let slots = out_dir.join("respawn-slots.txt");
+        match File::create(slots) {
+            Ok(file) => OutputWriter::File(file),
+            Err(err) => { eprintln!("Unable to create respawn-slots.txt.\nError: {}", err); return; }
+        }
+    } else { OutputWriter::Stdout(std::io::stdout()) };
+
+    writeln!(slot_out, "Slot => [(Zone: Area :: ID = Item), (...), ...]").expect("Writing respawn-slots.txt");
+    for (i, mut slot) in slot_binds.drain(..).enumerate() {
+
+        write!(slot_out, "{:02x} => [", i).expect("Writing respawn-slots.txt");
+        let num_in_slot = slot.len();
+        if num_in_slot > 0 {
+            for (k, data) in slot.drain(..).enumerate() {
+                write!(slot_out, "({}: {} :: {} = {}){}", data.1, data.0, data.2, data.3, if k == num_in_slot - 1 { "" } else { ", " }).expect("Writing respawn-slots.txt");
+            }
+        }
+        writeln!(slot_out, "]").expect("Writing respawn-slots.txt");
     }
 
 }
