@@ -41,12 +41,12 @@ pub enum Vbf {
 
 #[derive(StructOpt, Debug)]
 pub enum BattlePack {
-    /// Unpack the BattlePack to a directory of JSON files
+    /// Unpack the BattlePack to a directory of .bin files. (1 for each section)
     Unpack {
         #[structopt(parse(from_os_str))]
         battle_pack: PathBuf,
         #[structopt(parse(from_os_str))]
-        output: PathBuf
+        output: Option<PathBuf>
     },
     /// Repack the directory created by unpack into a battle_pack.bin
     Repack {
