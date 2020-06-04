@@ -1,5 +1,5 @@
-use std::io::{self, Seek, Read, SeekFrom};
-use byteorder::{ReadBytesExt, LE};
+use std::io::{self, Seek, Read, SeekFrom, Write};
+use byteorder::{ReadBytesExt, LE, WriteBytesExt};
 
 
 pub struct BattlePackReader<R: Read + Seek> {
@@ -104,4 +104,63 @@ impl<R: Read + Seek> BattlePackReader<R> {
             }
         }
     }
+}
+
+pub struct BattlePackWriter<W: Write + Seek> {
+    inner: W,
+    index: usize,
+    count: usize
+}
+
+impl<W: Write + Seek> BattlePackWriter<W> {
+    pub fn new(count: usize, output: W) -> io::Result<BattlePackWriter<W>> {
+        let mut output = output;
+        // magic
+        output.write_all(&[0x47, 0, 0, 0])?;
+
+        let mut sizes: Vec<u8> = Vec::new();
+        for _ in 0..count + 1 {
+            sizes.extend_from_slice(&[0,0,0,0])
+        }
+        output.write_all(&sizes)?;
+
+        Ok(Self { inner: output, index: 0, count })
+    }
+
+    pub fn write_section(&mut self, data: &[u8]) -> io::Result<()> {
+        if self.index == self.count { return Err(io::ErrorKind::WriteZero.into()) }
+        let offset = self.inner.seek(SeekFrom::Current(0))? as u32;
+        self.inner.write_all(data)?;
+        self.inner.seek(SeekFrom::Start(size_offset(self.index) as u64))?;
+        self.inner.write_u32::<LE>(offset)?;
+        self.inner.seek(SeekFrom::End(0))?;
+        self.index += 1;
+        Ok(())
+    }
+
+    #[allow(unused)]
+    pub fn into_inner(self) -> W { self.inner }
+
+}
+
+const fn size_offset(index: usize) -> usize {
+    4 + 4 * index
+}
+
+#[cfg(test)]
+mod tests {
+    use std::io::Cursor;
+    use crate::battle_pack::io::BattlePackWriter;
+
+    #[test]
+    fn writer_test() {
+        let mut sections: Vec<Vec<u8>> = vec![vec![0x45, 0x65, 0x99, 0x12], vec![0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7]];
+        let mut output_data = Cursor::new(Vec::new());
+        let mut writer = BattlePackWriter::new(2, output_data).expect("creating writer - writing header");
+        writer.write_section(&sections[0]).expect("writing section 1");
+        writer.write_section(&sections[1]).expect("writing section 2");
+        let output = writer.into_inner();
+        assert_eq!(output.into_inner(), vec![0x47u8, 0, 0, 0, 0x10, 0, 0, 0, 0x14, 0, 0, 0, 0, 0, 0, 0, 0x45, 0x65, 0x99, 0x12, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7])
+    }
+
 }

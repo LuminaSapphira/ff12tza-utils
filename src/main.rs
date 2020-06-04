@@ -51,7 +51,7 @@ fn match_vbf(opts: opt::Vbf) {
 fn match_battle_pack(opts: opt::BattlePack) {
     match opts {
         opt::BattlePack::Unpack {battle_pack, output} => { battle_pack::unpack(battle_pack, output); },
-        opt::BattlePack::Repack {input, battle_pack} => {},
+        opt::BattlePack::Repack {input, battle_pack} => { battle_pack::repack(input, battle_pack); },
         opt::BattlePack::AllowAllFlying {battle_pack} => {},
         opt::BattlePack::Fuse { battle_pack, mount_point } => {}
     }
@@ -62,7 +62,7 @@ fn match_battle_pack(opts: opt::BattlePack) {
 fn match_battle_pack(opts: opt::BattlePack) {
     match opts {
         opt::BattlePack::Unpack {battle_pack, output} => { battle_pack::unpack(battle_pack, output); },
-        opt::BattlePack::Repack {input, battle_pack} => {},
+        opt::BattlePack::Repack {input, battle_pack} => { battle_pack::repack(input, battle_pack); },
         opt::BattlePack::AllowAllFlying {battle_pack} => battle_pack::allow_all_flying(battle_pack),
         #[allow(unreachable_patterns)]
         _ => unreachable!()

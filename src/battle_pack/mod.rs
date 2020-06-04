@@ -3,15 +3,17 @@ use std::path::PathBuf;
 #[cfg(feature = "battle_fuse")]
 mod fuse;
 
-mod reader;
+mod io;
 
 use crate::{assert_exists, error_abort};
 use crate::utils;
 use std::fs::{File, OpenOptions, DirBuilder};
-use std::io::{Seek, SeekFrom, Write};
+use std::io::{Seek, SeekFrom, Write, Read};
 use byteorder::{ReadBytesExt, WriteBytesExt};
 
-use reader::BattlePackReader;
+use io::BattlePackReader;
+use walkdir::WalkDir;
+use crate::battle_pack::io::BattlePackWriter;
 
 const EQUIPMENT_SIGNATURE: [u8; 3] = [68, 113, 0];
 const OFFSET_FROM_SIGNATURE: usize = 8;
@@ -67,6 +69,37 @@ pub fn unpack(battle_pack: PathBuf, output: Option<PathBuf>) {
         }
     }
 
+}
+
+pub fn repack(input_dir: PathBuf, output: PathBuf) {
+    if !input_dir.is_dir() { error_abort!(1, "Input directory is nonexistent or is not a directory."); }
+    match File::create(output.as_path()) {
+        Ok(file) => {
+            let mut all_data = Vec::new();
+            let walkdir = WalkDir::new(input_dir.as_path())
+                .follow_links(true)
+                .contents_first(true)
+                .min_depth(1)
+                .max_depth(1)
+                .contents_first(true);
+            let dir = walkdir.into_iter()
+                .map(|f| f.unwrap_or_else(|err| error_abort!(1, "Failed to retrieve directory entry. Error: {}", err)))
+                .filter(|f| f.file_type().is_file())
+                .map(|e| e.into_path());
+            for entry in dir {
+                let meta = std::fs::metadata(entry.as_path()).unwrap_or_else(|err| error_abort!(1, "Failed to get input file metadata for {:?}. Error: {}", entry, err));
+                let mut data = Vec::with_capacity(meta.len() as usize);
+                let mut input = File::open(entry.as_path()).unwrap_or_else(|err| error_abort!(1, "Failed to open input file {:?}. Error: {}", entry, err));
+                input.read_to_end(&mut data).unwrap_or_else(|err| error_abort!(1, "Failed to read input file {:?}. Error: {}", entry, err));
+                all_data.push(data);
+            }
+            let mut b_writer = BattlePackWriter::new(all_data.len(), file).unwrap_or_else(|err| error_abort!(2, "Failed to write to output file. Error: {}", err));
+            for (i, section) in all_data.into_iter().enumerate() {
+                b_writer.write_section(&section).unwrap_or_else(|err| error_abort!(2, "Failed to write section {} to output file. Error: {}", i, err))
+            }
+        },
+        Err(err) => { error_abort!(1, "Failed to create output file. Error: {}", err); }
+    }
 }
 
 pub fn allow_all_flying(battle_pack: PathBuf) {
