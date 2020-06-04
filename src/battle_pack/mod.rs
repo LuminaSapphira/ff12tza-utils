@@ -14,6 +14,7 @@ use byteorder::{ReadBytesExt, WriteBytesExt};
 use io::BattlePackReader;
 use walkdir::WalkDir;
 use crate::battle_pack::io::BattlePackWriter;
+use std::str::FromStr;
 
 const EQUIPMENT_SIGNATURE: [u8; 3] = [68, 113, 0];
 const OFFSET_FROM_SIGNATURE: usize = 8;
@@ -85,8 +86,17 @@ pub fn repack(input_dir: PathBuf, output: PathBuf) {
             let dir = walkdir.into_iter()
                 .map(|f| f.unwrap_or_else(|err| error_abort!(1, "Failed to retrieve directory entry. Error: {}", err)))
                 .filter(|f| f.file_type().is_file())
+                .filter(|a| {
+                    let file = a.file_name().to_string_lossy();
+                    file.len() == 14 && {
+                        let (start, end) = file.split_at(8);
+                        start == "section_" && end.ends_with(".bin") && u8::from_str(&end[0..2]).is_ok()
+                    }
+                })
                 .map(|e| e.into_path());
-            for entry in dir {
+            let mut entries = dir.collect::<Vec<_>>();
+            entries.sort_by_key(|a| u8::from_str(&a.as_path().file_name().unwrap().to_string_lossy()[8..10]).unwrap());
+            for entry in entries {
                 let meta = std::fs::metadata(entry.as_path()).unwrap_or_else(|err| error_abort!(1, "Failed to get input file metadata for {:?}. Error: {}", entry, err));
                 let mut data = Vec::with_capacity(meta.len() as usize);
                 let mut input = File::open(entry.as_path()).unwrap_or_else(|err| error_abort!(1, "Failed to open input file {:?}. Error: {}", entry, err));
